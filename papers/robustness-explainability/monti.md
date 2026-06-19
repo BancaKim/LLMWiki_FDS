@@ -1,5 +1,7 @@
 ---
 type: Research Paper
+must_read: true
+venue_tier: top-tier conference
 title: "Unveiling the Threat of Fraud Gangs to GNNs: Multi-Target Graph Injection Attacks (MonTi)"
 description: 사기 갱단의 공모를 모사하는 다중 타깃 그래프 주입 공격. 트랜스포머로 모든 공격 노드의 속성·엣지를 동시 생성, 노드별 차수 예산 적응 할당.
 resource: https://arxiv.org/abs/2412.18370
@@ -10,7 +12,9 @@ year: 2024
 timestamp: 2026-06-18T00:00:00Z
 ---
 
-# Unveiling the Threat of Fraud Gangs to GNNs: Multi-Target Graph Injection Attacks (MonTi)
+# ⭐ Unveiling the Threat of Fraud Gangs to GNNs: Multi-Target Graph Injection Attacks (MonTi)
+
+> ⭐ **필독 (MUST-READ)** · 탑티어 학회 게재: **AAAI 2025**
 
 [← 카테고리](index.md) · 원문: [arXiv:2412.18370](https://arxiv.org/abs/2412.18370)
 

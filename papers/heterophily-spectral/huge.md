@@ -1,5 +1,7 @@
 ---
 type: Research Paper
+must_read: true
+venue_tier: top-tier conference
 title: "A Label-Free Heterophily-Guided Approach for Unsupervised Graph Fraud Detection (HUGE)"
 description: 라벨 없는 이질성 지표 HALO를 도입한 비지도 그래프 사기 탐지. MLP-GNN 결합 + 랭킹/비대칭 정렬 손실. 6개 데이터셋에서 우위.
 resource: https://arxiv.org/abs/2502.13308
@@ -10,7 +12,9 @@ year: 2025
 timestamp: 2026-06-18T00:00:00Z
 ---
 
-# A Label-Free Heterophily-Guided Approach for Unsupervised Graph Fraud Detection (HUGE)
+# ⭐ A Label-Free Heterophily-Guided Approach for Unsupervised Graph Fraud Detection (HUGE)
+
+> ⭐ **필독 (MUST-READ)** · 탑티어 학회 게재: **AAAI 2025**
 
 [← 카테고리](index.md) · 원문: [arXiv:2502.13308](https://arxiv.org/abs/2502.13308)
 

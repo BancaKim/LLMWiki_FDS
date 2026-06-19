@@ -12,6 +12,9 @@ timestamp: 2026-06-18T00:00:00Z
 
 분야 전체를 조망하는 리뷰 논문. **이 분야가 처음이라면 여기서 시작**하세요.
 
+> **범례**: ⭐ = 탑티어 학회 게재 **필독(MUST-READ)**. 본 카테고리는 저널/서베이 위주라 ⭐ 대상은
+> 없지만, 입문 시 **사실상 필독(출발점)** 입니다.
+
 | 논문 | 연도 | 발표처 | concept |
 |------|:----:|--------|---------|
 | GNN for Financial Fraud Detection: A Review | 2024 | arXiv/FCS | [gnn-financial-fraud-review.md](gnn-financial-fraud-review.md) |

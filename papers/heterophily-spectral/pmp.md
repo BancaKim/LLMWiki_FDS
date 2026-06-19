@@ -1,5 +1,7 @@
 ---
 type: Research Paper
+must_read: true
+venue_tier: top-tier conference
 title: "Partitioning Message Passing for Graph Fraud Detection (PMP)"
 description: 이웃을 클래스별로 분리해 노드별 집계 함수로 처리하는 메시지 패싱. 이질성·불균형으로 인한 그래디언트 지배를 완화.
 resource: https://arxiv.org/abs/2412.00020
@@ -10,7 +12,9 @@ year: 2024
 timestamp: 2026-06-18T00:00:00Z
 ---
 
-# Partitioning Message Passing for Graph Fraud Detection (PMP)
+# ⭐ Partitioning Message Passing for Graph Fraud Detection (PMP)
+
+> ⭐ **필독 (MUST-READ)** · 탑티어 학회 게재: **ICLR 2024**
 
 [← 카테고리](index.md) · 원문: [arXiv:2412.00020](https://arxiv.org/abs/2412.00020) · [OpenReview](https://openreview.net/forum?id=tEgrUrUuwA)
 

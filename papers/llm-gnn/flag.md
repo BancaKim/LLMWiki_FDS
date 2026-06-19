@@ -1,5 +1,7 @@
 ---
 type: Research Paper
+must_read: true
+venue_tier: top-tier conference
 title: "FLAG: Fraud Detection with LLM-enhanced Graph Neural Network"
 description: LLM으로 노드의 '판별 텍스트(discriminative text)'를 추출해 이웃 위장(camouflage)에 대응하는 LLM-enhanced GNN. 이중 skip-GNN + 어텐션 융합.
 resource: https://dl.acm.org/doi/10.1145/3711896.3737220
@@ -9,7 +11,9 @@ year: 2025
 timestamp: 2026-06-18T00:00:00Z
 ---
 
-# FLAG: Fraud Detection with LLM-enhanced Graph Neural Network
+# ⭐ FLAG: Fraud Detection with LLM-enhanced Graph Neural Network
+
+> ⭐ **필독 (MUST-READ)** · 탑티어 학회 게재: **KDD 2025**
 
 [← 카테고리](index.md) · 원문: [ACM DL 10.1145/3711896.3737220](https://dl.acm.org/doi/10.1145/3711896.3737220) · [PDF](http://www.shichuan.org/doc/200.pdf)
 

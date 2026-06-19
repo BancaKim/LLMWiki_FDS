@@ -1,5 +1,7 @@
 ---
 type: Research Paper
+must_read: true
+venue_tier: top-tier conference
 title: "SEFraud: Graph-based Self-Explainable Fraud Detection via Interpretative Mask Learning"
 description: 학습 가능한 특징·엣지 마스크로 예측과 설명을 동시에 내놓는 자기설명 이종 그래프 트랜스포머. ICBC 실배포, 추론 약 10배 가속.
 resource: https://arxiv.org/abs/2406.11389
@@ -10,7 +12,9 @@ year: 2024
 timestamp: 2026-06-18T00:00:00Z
 ---
 
-# SEFraud: Graph-based Self-Explainable Fraud Detection via Interpretative Mask Learning
+# ⭐ SEFraud: Graph-based Self-Explainable Fraud Detection via Interpretative Mask Learning
+
+> ⭐ **필독 (MUST-READ)** · 탑티어 학회 게재: **KDD 2024**
 
 [← 카테고리](index.md) · 원문: [arXiv:2406.11389](https://arxiv.org/abs/2406.11389)
 

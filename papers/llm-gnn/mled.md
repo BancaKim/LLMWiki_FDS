@@ -1,5 +1,7 @@
 ---
 type: Research Paper
+must_read: true
+venue_tier: top-tier conference
 title: "Can LLMs Find Fraudsters? Multi-level LLM Enhanced Graph Fraud Detection (MLED)"
 description: LLM으로 외부 지식을 추출해 type-level·relation-level 두 강화기로 그래프 사기 탐지를 보강하는 일반화 프레임워크. 4개 데이터셋에서 SOTA.
 resource: https://arxiv.org/abs/2507.11997
@@ -10,7 +12,9 @@ year: 2025
 timestamp: 2026-06-18T00:00:00Z
 ---
 
-# Can LLMs Find Fraudsters? Multi-level LLM Enhanced Graph Fraud Detection (MLED)
+# ⭐ Can LLMs Find Fraudsters? Multi-level LLM Enhanced Graph Fraud Detection (MLED)
+
+> ⭐ **필독 (MUST-READ)** · 탑티어 학회 게재: **ACM Multimedia 2025**
 
 [← 카테고리](index.md) · 원문: [arXiv:2507.11997](https://arxiv.org/abs/2507.11997)
 

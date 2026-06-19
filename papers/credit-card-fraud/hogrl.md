@@ -1,5 +1,7 @@
 ---
 type: Research Paper
+must_read: true
+venue_tier: top-tier conference
 title: "HOGRL: Effective High-order Graph Representation Learning for Credit Card Fraud Detection"
 description: 고차 거래 그래프에서 차수별 순수 표현을 학습해 다중 홉 위장 거래를 탐지. MoE 어텐션으로 차수 중요도 자동 가중, 오버스무딩 완화.
 resource: https://arxiv.org/abs/2503.01556
@@ -9,7 +11,9 @@ year: 2024
 timestamp: 2026-06-18T00:00:00Z
 ---
 
-# HOGRL: Effective High-order Graph Representation Learning for Credit Card Fraud Detection
+# ⭐ HOGRL: Effective High-order Graph Representation Learning for Credit Card Fraud Detection
+
+> ⭐ **필독 (MUST-READ)** · 탑티어 학회 게재: **IJCAI 2024**
 
 [← 카테고리](index.md) · 원문: [IJCAI 2024](https://www.ijcai.org/proceedings/2024/839) · [arXiv:2503.01556](https://arxiv.org/abs/2503.01556)
 

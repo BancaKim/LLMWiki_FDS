@@ -1,5 +1,7 @@
 ---
 type: Research Paper
+must_read: true
+venue_tier: top-tier conference
 title: "DGP: A Dual-Granularity Prompting Framework for Fraud Detection with Graph-Enhanced LLMs"
 description: 타깃 노드는 상세히, 이웃은 요약하는 이중 입도(dual-granularity) 프롬프트로 토큰 예산 내에서 그래프 정보를 LLM에 주입. AUPRC 최대 +6.8%.
 resource: https://arxiv.org/abs/2507.21653
@@ -10,7 +12,9 @@ year: 2025
 timestamp: 2026-06-18T00:00:00Z
 ---
 
-# DGP: A Dual-Granularity Prompting Framework for Fraud Detection with Graph-Enhanced LLMs
+# ⭐ DGP: A Dual-Granularity Prompting Framework for Fraud Detection with Graph-Enhanced LLMs
+
+> ⭐ **필독 (MUST-READ)** · 탑티어 학회 게재: **AAAI 2026**
 
 [← 카테고리](index.md) · 원문: [arXiv:2507.21653](https://arxiv.org/abs/2507.21653) · [AAAI](https://ojs.aaai.org/index.php/AAAI/article/view/38541)
 

@@ -38,14 +38,33 @@ timestamp: 2026-06-18T00:00:00Z
 
 ### 주제별 논문 디렉터리
 
-| 주제 | 논문 수 | 바로가기 |
-|------|:------:|----------|
-| 📊 서베이·리뷰 | 3 | [papers/surveys/index.md](papers/surveys/index.md) |
-| 💳 신용카드·거래 사기 | 8 | [papers/credit-card-fraud/index.md](papers/credit-card-fraud/index.md) |
-| 🤖 LLM × GNN | 4 | [papers/llm-gnn/index.md](papers/llm-gnn/index.md) |
-| 🏦 AML·암호화폐 | 3 | [papers/aml-crypto/index.md](papers/aml-crypto/index.md) |
-| 🌐 이질성·스펙트럼 | 3 | [papers/heterophily-spectral/index.md](papers/heterophily-spectral/index.md) |
-| 🛡️ 강건성·설명가능성 | 3 | [papers/robustness-explainability/index.md](papers/robustness-explainability/index.md) |
+> **범례**: ⭐ = **탑티어 학회 게재 필독(MUST-READ)** 논문 (ICLR · KDD · AAAI · IJCAI · CIKM · ACM MM 등).
+
+| 주제 | 논문 수 | ⭐ 필독 | 바로가기 |
+|------|:------:|:------:|----------|
+| 📊 서베이·리뷰 | 3 | 0 | [papers/surveys/index.md](papers/surveys/index.md) |
+| 💳 신용카드·거래 사기 | 8 | 1 | [papers/credit-card-fraud/index.md](papers/credit-card-fraud/index.md) |
+| 🤖 LLM × GNN | 4 | 3 | [papers/llm-gnn/index.md](papers/llm-gnn/index.md) |
+| 🏦 AML·암호화폐 | 3 | 1 | [papers/aml-crypto/index.md](papers/aml-crypto/index.md) |
+| 🌐 이질성·스펙트럼 | 3 | 3 | [papers/heterophily-spectral/index.md](papers/heterophily-spectral/index.md) |
+| 🛡️ 강건성·설명가능성 | 3 | 2 | [papers/robustness-explainability/index.md](papers/robustness-explainability/index.md) |
+
+### ⭐ 필독 논문 (탑티어 학회) — 10편
+
+처음 읽는다면 아래 ⭐ 논문부터 보세요. 전체 목록·범례는 [papers/index.md](papers/index.md).
+
+| ⭐ | 논문 | 발표처 | concept |
+|:--:|------|--------|---------|
+| ⭐ | PMP | **ICLR 2024** | [papers/heterophily-spectral/pmp.md](papers/heterophily-spectral/pmp.md) |
+| ⭐ | SEC-GFD | **AAAI 2024** | [papers/heterophily-spectral/sec-gfd.md](papers/heterophily-spectral/sec-gfd.md) |
+| ⭐ | SEFraud | **KDD 2024** | [papers/robustness-explainability/sefraud.md](papers/robustness-explainability/sefraud.md) |
+| ⭐ | HOGRL | **IJCAI 2024** | [papers/credit-card-fraud/hogrl.md](papers/credit-card-fraud/hogrl.md) |
+| ⭐ | DIAM | **CIKM 2024** | [papers/aml-crypto/diam.md](papers/aml-crypto/diam.md) |
+| ⭐ | HUGE | **AAAI 2025** | [papers/heterophily-spectral/huge.md](papers/heterophily-spectral/huge.md) |
+| ⭐ | MonTi | **AAAI 2025** | [papers/robustness-explainability/monti.md](papers/robustness-explainability/monti.md) |
+| ⭐ | FLAG | **KDD 2025** | [papers/llm-gnn/flag.md](papers/llm-gnn/flag.md) |
+| ⭐ | MLED | **ACM MM 2025** | [papers/llm-gnn/mled.md](papers/llm-gnn/mled.md) |
+| ⭐ | DGP | **AAAI 2026** | [papers/llm-gnn/dgp.md](papers/llm-gnn/dgp.md) |
 
 ## 🔑 핵심 요약 (TL;DR)
 
@@ -59,4 +78,4 @@ timestamp: 2026-06-18T00:00:00Z
 > 교차 검증했으나 일부 세부 수치·저자·발표처는 원문 확인이 필요할 수 있어 *(미확인)* 으로 표기했습니다.
 > 인용 전 각 concept 문서의 `resource` 링크(원문)를 확인하세요.
 
-*최종 갱신: 2026-06-18 · 변경 이력: [log.md](log.md)*
+*최종 갱신: 2026-06-19 · 변경 이력: [log.md](log.md)*

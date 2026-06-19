@@ -1,5 +1,7 @@
 ---
 type: Research Paper
+must_read: true
+venue_tier: top-tier conference
 title: "Revisiting Graph-Based Fraud Detection in Sight of Heterophily and Spectrum (SEC-GFD)"
 description: 스펙트럼 영역에서 혼합 주파수 대역 필터링으로 이질성을 다루고, 지역 환경 제약으로 라벨 활용을 높인 준지도 사기 탐지 GNN.
 resource: https://arxiv.org/abs/2312.06441
@@ -10,7 +12,9 @@ year: 2024
 timestamp: 2026-06-18T00:00:00Z
 ---
 
-# Revisiting Graph-Based Fraud Detection in Sight of Heterophily and Spectrum (SEC-GFD)
+# ⭐ Revisiting Graph-Based Fraud Detection in Sight of Heterophily and Spectrum (SEC-GFD)
+
+> ⭐ **필독 (MUST-READ)** · 탑티어 학회 게재: **AAAI 2024**
 
 [← 카테고리](index.md) · 원문: [arXiv:2312.06441](https://arxiv.org/abs/2312.06441)
 

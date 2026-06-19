@@ -1,5 +1,7 @@
 ---
 type: Research Paper
+must_read: true
+venue_tier: top-tier conference
 title: "Effective Illicit Account Detection on Large Cryptocurrency MultiGraphs (DIAM)"
 description: 암호화폐 방향성 멀티그래프에서 불법계좌를 탐지. Edge2Seq로 평행 엣지 시퀀스 모델링 + MGD 불일치 인식 메시지 패싱. 2천만 노드급에서 F1 96.55%.
 resource: https://arxiv.org/abs/2309.02460
@@ -10,7 +12,9 @@ year: 2024
 timestamp: 2026-06-18T00:00:00Z
 ---
 
-# Effective Illicit Account Detection on Large Cryptocurrency MultiGraphs (DIAM)
+# ⭐ Effective Illicit Account Detection on Large Cryptocurrency MultiGraphs (DIAM)
+
+> ⭐ **필독 (MUST-READ)** · 탑티어 학회 게재: **CIKM 2024**
 
 [← 카테고리](index.md) · 원문: [arXiv:2309.02460](https://arxiv.org/abs/2309.02460) · [CIKM 2024](https://dl.acm.org/doi/abs/10.1145/3627673.3679707)
 

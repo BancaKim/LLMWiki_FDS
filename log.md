@@ -9,6 +9,18 @@ timestamp: 2026-06-18T00:00:00Z
 
 OKF 예약 파일입니다. 번들의 변경 이력을 시간 순으로 기록합니다.
 
+## 2026-06-19 — 탑티어 학회 ⭐ 필독 표시 추가
+
+- 탑티어 학회(ICLR · KDD · AAAI · IJCAI · CIKM · ACM MM) 게재 논문 **10편** 에
+  **⭐ 필독(MUST-READ)** 표시 추가:
+  - H1 제목에 ⭐ + 본문 상단 콜아웃(`> ⭐ 필독 … 탑티어 학회 게재: <VENUE>`)
+  - frontmatter에 `must_read: true`, `venue_tier: top-tier conference` 필드 추가
+  - 대상: PMP(ICLR'24), SEC-GFD(AAAI'24), SEFraud(KDD'24), HOGRL(IJCAI'24),
+    DIAM(CIKM'24), HUGE(AAAI'25), MonTi(AAAI'25), FLAG(KDD'25), MLED(ACM MM'25), DGP(AAAI'26)
+- 루트 [index.md](index.md)·[papers/index.md](papers/index.md) 및 각 카테고리 index에
+  ⭐ 범례와 **필독 논문 빠른 시작 목록** 추가.
+- 🏅(준-탑티어/우수 저널) 보조 표기: FraudGT(ICAIF'24), STA-GT(IEEE TII).
+
 ## 2026-06-18 — 초기 번들 생성 (v0.1)
 
 - OKF v0.1 사양에 따라 번들 초기 구성.
