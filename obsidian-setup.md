@@ -32,6 +32,16 @@ timestamp: 2026-06-19T00:00:00Z
 
 iCloud가 굿노트처럼 기기 간 자동 동기화를 해 주고, **GitHub 백업은 맥에서** 합니다.
 
+### ⚡ 빠른 시작 — 맥에서 한 줄 실행 (자동 클론)
+터미널에 붙여넣기:
+```bash
+curl -fsSL https://raw.githubusercontent.com/BancaKim/LLMWiki_FDS/claude/wizardly-clarke-be1m7k/scripts/setup-mac.command | bash
+```
+또는 저장소를 이미 받았다면 `scripts/setup-mac.command` 를 **더블클릭**.
+→ iCloud Obsidian 폴더로 클론하고 보관소 열기를 시도합니다. 이후 [추천 플러그인](#-추천-플러그인)만 설치하면 끝.
+
+> 수동으로 하려면 아래 단계대로 진행하세요.
+
 ### 1) MacBook (최초 1회)
 1. [Obsidian](https://obsidian.md) 설치.
 2. 저장소를 **iCloud Drive 안에** 클론:

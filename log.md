@@ -9,6 +9,15 @@ timestamp: 2026-06-18T00:00:00Z
 
 OKF 예약 파일입니다. 번들의 변경 이력을 시간 순으로 기록합니다.
 
+## 2026-06-19 — macOS 자동 세팅 스크립트 + Obsidian 설정 추가
+
+- [`scripts/setup-mac.command`](scripts/setup-mac.command) 추가 — 맥에서 더블클릭/실행 시
+  iCloud Obsidian 폴더로 클론(있으면 pull) 후 보관소 열기 시도 + 남은 단계 안내.
+- 시작 Obsidian 설정 커밋: `.obsidian/app.json`(상대 마크다운 링크), `core-plugins.json`(그래프·백링크·검색 등),
+  `community-plugins.json`(dataview·obsidian-git 사전 활성). 플러그인 설치는 사용자가 1회 수행.
+  - 참고: 플러그인 비밀/상태(`.obsidian/**/data.json`, workspace*)는 .gitignore로 제외 — 기기 충돌·유출 방지.
+- 비고: Claude는 클라우드 샌드박스에서 동작하므로 사용자 Mac에 직접 설치 불가 → 위 스크립트로 자동화 제공.
+
 ## 2026-06-19 — 노트앱(Obsidian) 보기 지원 추가
 
 - [`obsidian-setup.md`](obsidian-setup.md) 추가 — iPad·iPhone·MacBook에서 굿노트처럼 동기화해
