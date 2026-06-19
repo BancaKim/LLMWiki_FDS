@@ -1,0 +1,33 @@
+---
+type: Changelog
+title: Change Log
+description: Chronological history of changes to this OKF bundle.
+timestamp: 2026-06-18T00:00:00Z
+---
+
+# Change Log
+
+OKF 예약 파일입니다. 번들의 변경 이력을 시간 순으로 기록합니다.
+
+## 2026-06-18 — 초기 번들 생성 (v0.1)
+
+- OKF v0.1 사양에 따라 번들 초기 구성.
+- 배경 개념 5종 추가: [overview](concepts/overview.md), [taxonomy](concepts/taxonomy.md),
+  [datasets 개요](concepts/datasets-overview.md), [glossary](concepts/glossary.md),
+  [trends-and-challenges](concepts/trends-and-challenges.md).
+- 벤치마크 데이터셋 concept 7종 추가 ([datasets/index.md](datasets/index.md)).
+- 논문 concept 24편 추가 (6개 주제):
+  - 서베이·리뷰 3편 ([papers/surveys](papers/surveys/index.md))
+  - 신용카드·거래 사기 8편 ([papers/credit-card-fraud](papers/credit-card-fraud/index.md))
+  - LLM × GNN 4편 ([papers/llm-gnn](papers/llm-gnn/index.md))
+  - AML·암호화폐 3편 ([papers/aml-crypto](papers/aml-crypto/index.md))
+  - 이질성·스펙트럼 3편 ([papers/heterophily-spectral](papers/heterophily-spectral/index.md))
+  - 강건성·설명가능성 3편 ([papers/robustness-explainability](papers/robustness-explainability/index.md))
+- 출처: arXiv / alphaXiv 및 주요 학회. LLM(Claude) 웹 검색 기반 큐레이션.
+
+### 알려진 미확인 항목 (후속 검증 필요)
+- `CaT-GNN` 정식 발표처(학회) 미확인 — arXiv 프리프린트로 표기.
+- `detectGNN`, `HGNN+Attention` 의 데이터셋·수치·코드 일부 미확인.
+- `Dynamic Fraud Detection (RL into GNN)` arXiv 버전 철회(withdrawn) — 일부 세부 미확인.
+- `DGP` 발표 연도(AAAI 2025 vs 2026) 미확정 — AAAI 2026으로 표기.
+- `Ride Hailing 서베이` arXiv ID(2512.23777)와 IEEE ICAIBD 2024 게재의 날짜 정합 미확인.
