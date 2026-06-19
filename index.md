@@ -37,6 +37,7 @@ timestamp: 2026-06-18T00:00:00Z
 | 📄 논문 | 24편 논문 (6개 주제) | [papers/index.md](papers/index.md) |
 | 🧰 노트앱으로 보기 | Obsidian으로 iPad·iPhone·Mac 동기화 | [obsidian-setup.md](obsidian-setup.md) |
 | 📊 대시보드 | Dataview 동적 목록(⭐/연도/태그별) | [dashboard.md](dashboard.md) |
+| 🤖 주간 자동 업데이트 | Routine으로 매주 신규 논문 스캔→초안 PR | [automation-weekly-routine.md](automation-weekly-routine.md) |
 
 ### 주제별 논문 디렉터리
 

@@ -9,6 +9,15 @@ timestamp: 2026-06-18T00:00:00Z
 
 OKF 예약 파일입니다. 번들의 변경 이력을 시간 순으로 기록합니다.
 
+## 2026-06-19 — 주간 자동 업데이트(Routine) 설정 추가
+
+- [`scripts/weekly-paper-scan-prompt.md`](scripts/weekly-paper-scan-prompt.md) 추가 —
+  주간 Routine이 따를 자기완결 지시문(서칭→중복제거→OKF concept 추가→⭐ AI-tier 적용→log 기록→draft PR).
+- [`automation-weekly-routine.md`](automation-weekly-routine.md) 추가 — Claude Code **Routines**(`/schedule`)
+  로 주간 예약 실행 설정 가이드(웹/CLI). 구독 기반, API키 불필요.
+- ⚠️ 선행 조건: Routine은 기본 브랜치(main)를 클론하므로 **PR #1을 main에 머지 후** 사용.
+- 루트 [index.md](index.md) 탐색표에 링크 추가.
+
 ## 2026-06-19 — macOS 자동 세팅 스크립트 + Obsidian 설정 추가
 
 - [`scripts/setup-mac.command`](scripts/setup-mac.command) 추가 — 맥에서 더블클릭/실행 시
