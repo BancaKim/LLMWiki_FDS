@@ -6,6 +6,10 @@
 이 저장소는 사람과 AI 에이전트가 모두 읽을 수 있는 **OKF 번들**입니다.
 **시작점은 [`index.md`](index.md)** 입니다 — 거기서부터 progressive disclosure로 탐색하세요.
 
+> 📱 **GitHub 말고 노트앱으로 보고 싶다면?** 이 폴더를 그대로 **Obsidian** 보관소로 열면
+> iPad·iPhone·MacBook에서 굿노트처럼 동기화해 볼 수 있습니다 →
+> [**obsidian-setup.md**](obsidian-setup.md) · 생산성 대시보드 [**dashboard.md**](dashboard.md)
+
 ## OKF 번들이란?
 
 OKF는 LLM-wiki 패턴을 이식 가능한 포맷으로 표준화한 개방 사양입니다. 핵심 원칙:

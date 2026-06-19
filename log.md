@@ -9,6 +9,15 @@ timestamp: 2026-06-18T00:00:00Z
 
 OKF 예약 파일입니다. 번들의 변경 이력을 시간 순으로 기록합니다.
 
+## 2026-06-19 — 노트앱(Obsidian) 보기 지원 추가
+
+- [`obsidian-setup.md`](obsidian-setup.md) 추가 — iPad·iPhone·MacBook에서 굿노트처럼 동기화해
+  보는 가이드(iCloud / Obsidian Sync / Working Copy 3가지 방식).
+- [`dashboard.md`](dashboard.md) 추가 — Dataview 동적 대시보드(⭐ 필독/연도순/주제별/태그/데이터셋).
+  OKF frontmatter(`must_read`, `year`, `venue`, `tags`)를 그대로 쿼리.
+- [`.gitignore`](.gitignore) 추가 — Obsidian 캐시·OS 잡파일 제외(기기 간 충돌 방지).
+- 루트 [index.md](index.md)·[README.md](README.md)에 노트앱 보기 링크 추가.
+
 ## 2026-06-19 — 큐레이션 기준 명문화 (AI 분야)
 
 - 사용자 지정 기준 기록: **⭐ 탑티어 판단은 "AI 분야" 학회·저널 랭킹 기준**.

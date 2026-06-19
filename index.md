@@ -35,6 +35,8 @@ timestamp: 2026-06-18T00:00:00Z
 | 📚 배경 개념 | GNN×FDS 개요·분류·용어·동향 | [concepts/index.md](concepts/index.md) |
 | 🧪 데이터셋 | 표준 벤치마크 데이터셋 | [datasets/index.md](datasets/index.md) |
 | 📄 논문 | 24편 논문 (6개 주제) | [papers/index.md](papers/index.md) |
+| 🧰 노트앱으로 보기 | Obsidian으로 iPad·iPhone·Mac 동기화 | [obsidian-setup.md](obsidian-setup.md) |
+| 📊 대시보드 | Dataview 동적 목록(⭐/연도/태그별) | [dashboard.md](dashboard.md) |
 
 ### 주제별 논문 디렉터리
 
