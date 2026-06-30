@@ -12,7 +12,7 @@ timestamp: 2026-06-18T00:00:00Z
 > 본 번들은 [Open Knowledge Format (OKF) v0.1](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing) 사양을 따릅니다.
 
 이 위키는 arXiv / alphaXiv 및 주요 학회(NeurIPS, ICLR, KDD, AAAI, IJCAI, CIKM, ICAIF 등)에 공개된
-**GNN 기반 Fraud Detection System** 연구 24편을 OKF **concept** 문서로 정리합니다.
+**GNN 기반 Fraud Detection System** 연구 30편을 OKF **concept** 문서로 정리합니다.
 
 ## 이 번들의 구조 (OKF)
 
@@ -34,7 +34,7 @@ timestamp: 2026-06-18T00:00:00Z
 |------|------|----------|
 | 📚 배경 개념 | GNN×FDS 개요·분류·용어·동향 | [concepts/index.md](concepts/index.md) |
 | 🧪 데이터셋 | 표준 벤치마크 데이터셋 | [datasets/index.md](datasets/index.md) |
-| 📄 논문 | 24편 논문 (6개 주제) | [papers/index.md](papers/index.md) |
+| 📄 논문 | 30편 논문 (6개 주제) | [papers/index.md](papers/index.md) |
 | 🧰 노트앱으로 보기 | Obsidian으로 iPad·iPhone·Mac 동기화 | [obsidian-setup.md](obsidian-setup.md) |
 | 📊 대시보드 | Dataview 동적 목록(⭐/연도/태그별) | [dashboard.md](dashboard.md) |
 | 🤖 주간 자동 업데이트 | Routine으로 매주 신규 논문 스캔→초안 PR | [automation-weekly-routine.md](automation-weekly-routine.md) |
@@ -46,13 +46,14 @@ timestamp: 2026-06-18T00:00:00Z
 | 주제 | 논문 수 | ⭐ 필독 | 바로가기 |
 |------|:------:|:------:|----------|
 | 📊 서베이·리뷰 | 3 | 0 | [papers/surveys/index.md](papers/surveys/index.md) |
-| 💳 신용카드·거래 사기 | 8 | 1 | [papers/credit-card-fraud/index.md](papers/credit-card-fraud/index.md) |
-| 🤖 LLM × GNN | 4 | 3 | [papers/llm-gnn/index.md](papers/llm-gnn/index.md) |
-| 🏦 AML·암호화폐 | 3 | 1 | [papers/aml-crypto/index.md](papers/aml-crypto/index.md) |
+| 💳 신용카드·거래 사기 | 9 | 1 | [papers/credit-card-fraud/index.md](papers/credit-card-fraud/index.md) |
+| 🤖 LLM × GNN | 7 | 4 | [papers/llm-gnn/index.md](papers/llm-gnn/index.md) |
+| 🏦 AML·암호화폐 | 4 | 1 | [papers/aml-crypto/index.md](papers/aml-crypto/index.md) |
 | 🌐 이질성·스펙트럼 | 3 | 3 | [papers/heterophily-spectral/index.md](papers/heterophily-spectral/index.md) |
-| 🛡️ 강건성·설명가능성 | 3 | 2 | [papers/robustness-explainability/index.md](papers/robustness-explainability/index.md) |
+| 🛡️ 강건성·설명가능성 | 4 | 2 | [papers/robustness-explainability/index.md](papers/robustness-explainability/index.md) |
+| **합계** | **30** | **11** | — |
 
-### ⭐ 필독 논문 (탑티어 학회) — 10편
+### ⭐ 필독 논문 (탑티어 학회) — 11편
 
 처음 읽는다면 아래 ⭐ 논문부터 보세요. 전체 목록·범례는 [papers/index.md](papers/index.md).
 
@@ -68,6 +69,7 @@ timestamp: 2026-06-18T00:00:00Z
 | ⭐ | FLAG | **KDD 2025** | [papers/llm-gnn/flag.md](papers/llm-gnn/flag.md) |
 | ⭐ | MLED | **ACM MM 2025** | [papers/llm-gnn/mled.md](papers/llm-gnn/mled.md) |
 | ⭐ | DGP | **AAAI 2026** | [papers/llm-gnn/dgp.md](papers/llm-gnn/dgp.md) |
+| ⭐ | MH-LGC | **AAAI 2026** | [papers/llm-gnn/mh-lgc.md](papers/llm-gnn/mh-lgc.md) |
 
 ## 🔑 핵심 요약 (TL;DR)
 
