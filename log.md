@@ -9,6 +9,20 @@ timestamp: 2026-06-18T00:00:00Z
 
 OKF 예약 파일입니다. 번들의 변경 이력을 시간 순으로 기록합니다.
 
+## 2026-06-19 — 주간 스캔 #1: 신규 논문 6편 반영 (24→30편)
+
+- 최근(2026) 신규 논문 6편 추가. ⭐ 필독 10→11편.
+  - 💳 카드·거래: **OES-GNN** (One-side Edge Sampling, arXiv:2601.06800)
+  - 🤖 LLM×GNN: **FraudCoT** (CoT 증류, arXiv:2601.22949), **LGSPF** (soft prompt, arXiv:2605.28524),
+    ⭐ **MH-LGC** (Multi-View Hypergraph + LLM 대조학습, **AAAI 2026**)
+  - 🏦 AML·암호화폐: **UniDetect** (LLM 멀티체인 크립토, arXiv:2604.12329)
+  - 🛡️ 강건성: **GAD in the Wild** (실배포 GAD 벤치마크, arXiv:2605.07133)
+- 색인·카테고리 편수/⭐ 카운트 갱신(루트 index, papers/index, 4개 카테고리 index).
+- 비고: arXiv 프리프린트(OES/FraudCoT/LGSPF/UniDetect/GAD) 5편은 CLAUDE.md 기준상 등급 보류(⭐ 아님),
+  MH-LGC만 AAAI 2026로 ⭐. 일부 데이터셋·수치는 `(미확인)`.
+- 비고: "이번 주(2026-06-3째주)" 한정 신규는 확정 못 함 — 검색에 노출된 최신은 2026-05까지라
+  위키에 없던 2026년 신규를 반영함.
+
 ## 2026-06-19 — 주간 자동 업데이트(Routine) 설정 추가
 
 - [`scripts/weekly-paper-scan-prompt.md`](scripts/weekly-paper-scan-prompt.md) 추가 —

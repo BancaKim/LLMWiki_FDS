@@ -1,7 +1,7 @@
 ---
 type: Index
 title: 🏦 AML·암호화폐
-description: 자금세탁(AML)·암호화폐 불법계좌 탐지 GNN 논문 3편. 시계열·대규모 멀티그래프·설명가능성이 핵심.
+description: 자금세탁(AML)·암호화폐 불법계좌 탐지 GNN 논문 4편. 시계열·대규모 멀티그래프·설명가능성이 핵심.
 tags: [aml, crypto, money-laundering, gnn]
 timestamp: 2026-06-19T00:00:00Z
 ---
@@ -20,6 +20,7 @@ timestamp: 2026-06-19T00:00:00Z
 | ⭐ | DIAM | **CIKM 2024** | 암호화폐 멀티그래프 (Edge2Seq) | [diam.md](diam.md) |
 |   | TeMP-TraG | arXiv 2025 | 시간 가중 메시지 패싱 | [temp-trag.md](temp-trag.md) |
 |   | SAGE-FIN | arXiv 2025 | 준지도 + Granger 인과 설명 | [sage-fin.md](sage-fin.md) |
+|   | UniDetect | arXiv 2026 | LLM 멀티체인(크로스체인) 암호화폐 사기 | [unidetect.md](unidetect.md) |
 
 > 관련 데이터셋: [Elliptic/Elliptic++](../../datasets/elliptic.md), [IBM AML](../../datasets/ibm-aml.md)
 > · 관련 서베이: [Continual Graph Learning for AML](../surveys/continual-graph-learning-aml-review.md)
