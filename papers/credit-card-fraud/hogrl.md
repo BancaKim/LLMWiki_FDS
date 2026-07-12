@@ -34,10 +34,11 @@ timestamp: 2026-06-18T00:00:00Z
 - 고차 GNN 대비 **AUC +1.9%, F1 +3.6%, GMean +2.9% 이상** 개선
 
 ## 결과·데이터셋 (Results)
-고차 GNN 대비 일관된 향상. (코드: [AI4Risk/antifraud](https://github.com/AI4Risk/antifraud) 계열)
+고차 GNN 대비 일관된 향상. (코드: [AI4Risk/antifraud](https://github.com/AI4Risk/antifraud))
 
 ## 관련 링크
 - 개념: [오버스무딩](../../concepts/glossary.md), [고차 그래프 구조](../../concepts/taxonomy.md)
+- 코드/리소스: [AI4Risk/antifraud](../../resources/ai4risk-antifraud.md) · 같은 그룹: [GTAN](gtan.md), [RGTAN](rgtan.md)
 
 ---
 [← 카테고리](index.md)

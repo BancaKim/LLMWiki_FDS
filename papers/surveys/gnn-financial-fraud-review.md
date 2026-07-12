@@ -36,6 +36,8 @@ GNN 기반 금융 사기 탐지 연구를 **통합 프레임워크(unified frame
 
 ## 관련 링크
 - 이 위키의 [분류 체계](../../concepts/taxonomy.md) 는 본 서베이의 관점을 참고했습니다.
+- **본 리뷰 기반 큐레이션·코드**(동일 저자 그룹 AI4Risk): [awesome-fraud-detection](../../resources/awesome-fraud-detection.md) ·
+  [antifraud 코드](../../resources/ai4risk-antifraud.md)
 - 외부: [safe-graph 큐레이션](https://github.com/safe-graph/graph-fraud-detection-papers)
 
 > 💡 **이 분야의 출발점**으로 가장 추천. 용어·분류·문제의식을 한 번에 정리.

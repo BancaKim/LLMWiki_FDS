@@ -1,7 +1,7 @@
 ---
 type: Index
 title: 논문 모음 (Papers)
-description: 2024–2026 GNN × FDS 논문 30편을 6개 주제로 분류한 concept 모음. ⭐ = 탑티어 학회 필독 논문.
+description: 2024–2026 GNN × FDS 논문 33편을 6개 주제로 분류한 concept 모음. ⭐ = 탑티어 학회 필독 논문.
 tags: [papers, index, gnn, fds, 2024, 2025, 2026, must-read]
 timestamp: 2026-06-19T00:00:00Z
 ---
@@ -10,7 +10,7 @@ timestamp: 2026-06-19T00:00:00Z
 
 [← 번들 루트](../index.md) · 배경은 [개념 목록](../concepts/index.md)
 
-GNN과 FDS를 연계한 **2024–2026** 논문 30편입니다. 각 논문은 `문제 → 방법 → 기여 → 결과 → 링크`
+GNN과 FDS를 연계한 **2024–2026** 논문 33편입니다. 각 논문은 `문제 → 방법 → 기여 → 결과 → 링크`
 양식의 concept 문서입니다.
 
 > **범례**: ⭐ = **탑티어 학회 게재 필독(MUST-READ) 논문** (ICLR · KDD · AAAI · IJCAI · CIKM · ACM MM 등).
@@ -31,6 +31,9 @@ GNN과 FDS를 연계한 **2024–2026** 논문 30편입니다. 각 논문은 `�
 | ⭐ | MLED: Multi-level LLM | **ACM MM 2025** | LLM×GNN | [link](llm-gnn/mled.md) |
 | ⭐ | DGP: Dual-Granularity Prompting | **AAAI 2026** | LLM×GNN | [link](llm-gnn/dgp.md) |
 | ⭐ | MH-LGC: Borderline Fraudsters | **AAAI 2026** | LLM×GNN | [link](llm-gnn/mh-lgc.md) |
+| ⭐ | GTAN: Attribute-driven Graph Repr. | **AAAI 2023** | 카드·거래 | [link](credit-card-fraud/gtan.md) |
+| ⭐ | RGTAN: Risk-aware Graph Repr. | **IEEE TKDE 2025** | 카드·거래 | [link](credit-card-fraud/rgtan.md) |
+| ⭐ | Grad: Guided Relation Diffusion | **WWW 2025** | 카드·거래 | [link](credit-card-fraud/grad.md) |
 
 > 🏅 **참고(준-탑티어/우수 저널)**: [FraudGT](credit-card-fraud/fraudgt.md)(ICAIF 2024),
 > [STA-GT](credit-card-fraud/sta-gt.md)(IEEE TII).
@@ -39,12 +42,12 @@ GNN과 FDS를 연계한 **2024–2026** 논문 30편입니다. 각 논문은 `�
 | 주제 | 논문 수 | ⭐ 필독 | 바로가기 |
 |------|:------:|:------:|----------|
 | 📊 서베이·리뷰 | 3 | 0 | [surveys/index.md](surveys/index.md) |
-| 💳 신용카드·거래 사기 | 9 | 1 | [credit-card-fraud/index.md](credit-card-fraud/index.md) |
+| 💳 신용카드·거래 사기 | 12 | 4 | [credit-card-fraud/index.md](credit-card-fraud/index.md) |
 | 🤖 LLM × GNN | 7 | 4 | [llm-gnn/index.md](llm-gnn/index.md) |
 | 🏦 AML·암호화폐 | 4 | 1 | [aml-crypto/index.md](aml-crypto/index.md) |
 | 🌐 이질성·스펙트럼 | 3 | 3 | [heterophily-spectral/index.md](heterophily-spectral/index.md) |
 | 🛡️ 강건성·설명가능성 | 4 | 2 | [robustness-explainability/index.md](robustness-explainability/index.md) |
-| **합계** | **30** | **11** | — |
+| **합계** | **33** | **14** | — |
 
 ## 전체 논문 색인 (연도순)
 
@@ -77,6 +80,8 @@ GNN과 FDS를 연계한 **2024–2026** 논문 30편입니다. 각 논문은 `�
 | TeMP-TraG | arXiv | AML·암호화폐 | [link](aml-crypto/temp-trag.md) |
 | SAGE-FIN | arXiv | AML·암호화폐 | [link](aml-crypto/sage-fin.md) |
 | ⭐ HUGE | **AAAI 2025** | 이질성 | [link](heterophily-spectral/huge.md) |
+| ⭐ RGTAN | **IEEE TKDE 2025** | 카드·거래 | [link](credit-card-fraud/rgtan.md) |
+| ⭐ Grad | **WWW 2025** | 카드·거래 | [link](credit-card-fraud/grad.md) |
 
 ### 2026
 | 논문 | 발표처 | 주제 | concept |
@@ -92,6 +97,7 @@ GNN과 FDS를 연계한 **2024–2026** 논문 30편입니다. 각 논문은 `�
 ### 기반 논문 (2023 공개 → 2024 게재 등, 2개년 맥락 포함)
 | 논문 | 발표처 | 주제 | concept |
 |------|--------|------|---------|
+| ⭐ GTAN | **AAAI 2023** | 카드·거래 | [link](credit-card-fraud/gtan.md) |
 | Graph-LLM XAI Framework | arXiv 2023 | LLM×GNN | [link](llm-gnn/graph-llm-xai.md) |
 
 > ⚠️ 일부 발표처·연도·수치는 *(미확인)* 항목이 있습니다. 자세한 내용은 각 concept 의 본문 및

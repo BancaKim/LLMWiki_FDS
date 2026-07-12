@@ -9,6 +9,19 @@ timestamp: 2026-06-18T00:00:00Z
 
 OKF 예약 파일입니다. 번들의 변경 이력을 시간 순으로 기록합니다.
 
+## 2026-06-19 — AI4Risk 저장소 반영 + 신규 논문 3편 (30→33편)
+
+- 사용자가 공유한 **AI4Risk** 저장소 2종을 리소스 concept으로 반영:
+  - [resources/ai4risk-antifraud.md](resources/ai4risk-antifraud.md) (코드 프레임워크, 모델↔논문 매핑),
+    [resources/awesome-fraud-detection.md](resources/awesome-fraud-detection.md) (큐레이션 목록),
+    [resources/index.md](resources/index.md)
+- antifraud 구현 모델 중 **in-scope·AI-탑티어 3편** 추가(모두 ⭐):
+  - ⭐ **GTAN** (AAAI 2023, 기반), ⭐ **RGTAN** (IEEE TKDE 2025), ⭐ **Grad** (WWW 2025)
+  - TKDE는 CLAUDE.md 기준 **탑 AI 저널 → ⭐**.
+- 상호링크: [HOGRL](papers/credit-card-fraud/hogrl.md)·[GNN 리뷰](papers/surveys/gnn-financial-fraud-review.md)·
+  [FFSD 데이터셋](datasets/ffsd.md) → AI4Risk 리소스. 루트 index 탐색표에 리소스 추가.
+- 편수 **30→33**, ⭐ **11→14**.
+
 ## 2026-06-19 — 주간 스캔 #1: 신규 논문 6편 반영 (24→30편)
 
 - 최근(2026) 신규 논문 6편 추가. ⭐ 필독 10→11편.
