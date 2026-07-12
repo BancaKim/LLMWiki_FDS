@@ -26,11 +26,15 @@ timestamp: 2026-06-19T00:00:00Z
 - ⭐ [PMP](../papers/heterophily-spectral/pmp.md) (ICLR 2024, 코드 포함) · ⭐ [DIAM](../papers/aml-crypto/diam.md) (CIKM 2024)
 - ⭐ [Grad](../papers/credit-card-fraud/grad.md) (WWW 2025) · ⭐ [HOGRL](../papers/credit-card-fraud/hogrl.md) (IJCAI 2024)
 
-## 아직 우리 위키에 없는(참고용) 목록의 예
-> 필요 시 [분류 체계](../concepts/taxonomy.md)에 맞춰 concept으로 추가할 후보.
-- **CARE-GNN** (CIKM 2020) — 위장 사기범 대응의 고전, YelpChi/Amazon 벤치마크 출처
-- **PC-GNN** (WWW 2021) — 불균형 그래프 학습 pick-and-choose
-- **DGA-GNN** (AAAI 2024, 코드) · **POCL** (AAAI 2024, 코드) · **Global Attribute-Association Pattern Aggregation** (AAAI 2025)
+## 목록에서 반영한 논문 (이 위키에 추가됨)
+- ⭐ [CARE-GNN](../papers/heterophily-spectral/care-gnn.md) (CIKM 2020) — 위장 사기범 대응의 고전, YelpChi/Amazon 벤치마크 출처
+- ⭐ [PC-GNN](../papers/heterophily-spectral/pc-gnn.md) (WWW 2021) — 불균형 그래프 학습 pick-and-choose
+- ⭐ [DGA-GNN](../papers/heterophily-spectral/dga-gnn.md) (AAAI 2024) · ⭐ [GAAP](../papers/heterophily-spectral/gaap.md) (AAAI 2025)
+
+### 아직 미반영(참고용) 후보
+- **POCL** (AAAI 2024, [AI4Risk/POCL](https://github.com/AI4Risk/POCL)) — 보험 사기 대비 대조학습 사전학습+온라인 갱신.
+  그래프/GNN 핵심 여부가 불명확해 **보류**(게재 세부 확인 후 재평가).
+- **ConsisGAD** (ICLR 2024), **LEX-GNN** (CIKM 2024) 등 — 필요 시 [분류 체계](../concepts/taxonomy.md)에 맞춰 추가.
 
 ## 커버 학회
 NeurIPS · ICML · ICLR · AAAI · IJCAI · KDD · WWW · ICDM · CIKM · TKDE 등 — 이 위키의
