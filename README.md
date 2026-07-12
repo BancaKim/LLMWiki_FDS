@@ -28,7 +28,8 @@ OKF는 LLM-wiki 패턴을 이식 가능한 포맷으로 표준화한 개방 사�
 ├── log.md            # 변경 이력
 ├── concepts/         # 배경 개념 (개요·분류·데이터셋·용어·동향)
 ├── datasets/         # 벤치마크 데이터셋 concept
-└── papers/           # 24편 논문 concept (6개 주제 디렉터리)
+├── resources/        # 외부 코드·큐레이션 (AI4Risk 등)
+└── papers/           # 논문 concept (6개 주제 디렉터리)
     ├── surveys/
     ├── credit-card-fraud/
     ├── llm-gnn/

@@ -24,7 +24,8 @@ timestamp: 2026-06-18T00:00:00Z
 - [CaT-GNN](../papers/credit-card-fraud/cat-gnn.md) — YelpChi·Amazon과 함께 FFSD에서 평가
   (보고 AUC ≈ 0.8281).
 
-> 관련 개념: [준지도학습](../concepts/glossary.md)
+> 관련 개념: [준지도학습](../concepts/glossary.md) · 코드/구현: [AI4Risk/antifraud](../resources/ai4risk-antifraud.md)
+> (S-FFSD는 antifraud 프레임워크에서 제공하는 데이터셋)
 
 ---
 [← 데이터셋 카탈로그](index.md)
