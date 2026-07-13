@@ -39,8 +39,15 @@ timestamp: 2026-06-19T00:00:00Z
 ## 결과·데이터셋 (Results)
 3개 실제 데이터셋에서 **12개 SOTA 베이스라인 능가**, **AUC +1.10%~5.70%** 향상.
 
+## 구조 상세 (그래프 종류·파이프라인·GNN)
+- **그래프 종류**: **Hypergraph** (다중뷰 + 시간). 쌍(pairwise) 엣지·지역 집계로는 멀리 떨어진 사기범
+  간 **고차 집단 패턴**을 표현 못하므로, 하이퍼엣지로 다수 노드를 동시 연결.
+- **저자/데이터**: Rui Ou, Kun Zhu 외 · **3개 실제 데이터셋**(YelpChi·Amazon 포함; 노드·엣지 수 미확인).
+- **파이프라인**: `거래 → 거래뷰 + 2개 시간 하이퍼뷰 → THAN 통합 → LLM-Guided Contrastive(무튜닝, 마스킹 증강) → 임베딩 → 분류 → Fraud Score`.
+- **GNN 백본**: **Temporal Hypergraph Attention Network(THAN)** + LLM 유도 대조학습 (고차+시간+의미).
+
 ## 관련 링크
-- 개념: [위장(camouflage), 하이퍼그래프, 대조학습](../../concepts/glossary.md)
+- 개념: [위장(camouflage), 하이퍼그래프, 대조학습](../../concepts/glossary.md) · [그래프 종류·GNN 백본](../../concepts/graph-types.md)
 - 같은 흐름: [DGP](dgp.md), [LGSPF](lgspf.md), [FraudCoT](fraudcot.md)
 
 ---

@@ -1,7 +1,7 @@
 ---
 type: Index
 title: 논문 모음 (Papers)
-description: 2020–2026 GNN × FDS 논문 37편을 6개 주제로 분류한 concept 모음(핵심 기반 논문 포함). ⭐ = 탑티어 학회 필독 논문.
+description: 2018–2026 GNN × FDS 논문 41편을 6개 주제로 분류한 concept 모음(핵심 기반 논문 포함). ⭐ = 탑티어 학회 필독 논문.
 tags: [papers, index, gnn, fds, 2024, 2025, 2026, must-read]
 timestamp: 2026-06-19T00:00:00Z
 ---
@@ -10,7 +10,7 @@ timestamp: 2026-06-19T00:00:00Z
 
 [← 번들 루트](../index.md) · 배경은 [개념 목록](../concepts/index.md)
 
-GNN과 FDS를 연계한 논문 37편입니다(주력은 **2024–2026**, 일부 핵심 **기반 논문** 포함). 각 논문은 `문제 → 방법 → 기여 → 결과 → 링크`
+GNN과 FDS를 연계한 논문 41편입니다(주력은 **2024–2026**, 일부 핵심 **기반 논문** 포함). 각 논문은 `문제 → 방법 → 기여 → 결과 → 링크`
 양식의 concept 문서입니다.
 
 > **범례**: ⭐ = **탑티어 학회 게재 필독(MUST-READ) 논문** (ICLR · KDD · AAAI · IJCAI · CIKM · ACM MM 등).
@@ -38,6 +38,7 @@ GNN과 FDS를 연계한 논문 37편입니다(주력은 **2024–2026**, 일부 
 | ⭐ | GAAP: Attribute-Association Aggregation | **AAAI 2025** | 이질성·GFD | [link](heterophily-spectral/gaap.md) |
 | ⭐ | CARE-GNN: Camouflage-Resistant | **CIKM 2020** | 이질성·GFD | [link](heterophily-spectral/care-gnn.md) |
 | ⭐ | PC-GNN: Pick and Choose | **WWW 2021** | 이질성·GFD | [link](heterophily-spectral/pc-gnn.md) |
+| ⭐ | GEM: Malicious Account (Alipay) | **CIKM 2018** | 카드·거래(이종) | [link](credit-card-fraud/hgnn-malicious-account.md) |
 
 > 🏅 **참고(준-탑티어/우수 저널)**: [FraudGT](credit-card-fraud/fraudgt.md)(ICAIF 2024),
 > [STA-GT](credit-card-fraud/sta-gt.md)(IEEE TII).
@@ -46,12 +47,12 @@ GNN과 FDS를 연계한 논문 37편입니다(주력은 **2024–2026**, 일부 
 | 주제 | 논문 수 | ⭐ 필독 | 바로가기 |
 |------|:------:|:------:|----------|
 | 📊 서베이·리뷰 | 3 | 0 | [surveys/index.md](surveys/index.md) |
-| 💳 신용카드·거래 사기 | 12 | 4 | [credit-card-fraud/index.md](credit-card-fraud/index.md) |
+| 💳 신용카드·거래·금융 사기 | 16 | 5 | [credit-card-fraud/index.md](credit-card-fraud/index.md) |
 | 🤖 LLM × GNN | 7 | 4 | [llm-gnn/index.md](llm-gnn/index.md) |
 | 🏦 AML·암호화폐 | 4 | 1 | [aml-crypto/index.md](aml-crypto/index.md) |
 | 🌐 이질성·스펙트럼·핵심 GFD | 7 | 7 | [heterophily-spectral/index.md](heterophily-spectral/index.md) |
 | 🛡️ 강건성·설명가능성 | 4 | 2 | [robustness-explainability/index.md](robustness-explainability/index.md) |
-| **합계** | **37** | **18** | — |
+| **합계** | **41** | **19** | — |
 
 ## 전체 논문 색인 (연도순)
 
@@ -72,6 +73,7 @@ GNN과 FDS를 연계한 논문 37편입니다(주력은 **2024–2026**, 일부 
 | ⭐ MonTi | **AAAI 2025** | 강건성 | [link](robustness-explainability/monti.md) |
 | Dynamic Fraud Detection (RL into GNN) | arXiv | 강건성 | [link](robustness-explainability/rl-gnn-dynamic.md) |
 | ⭐ SEFraud | **KDD 2024** | 설명가능성 | [link](robustness-explainability/sefraud.md) |
+| HG Auto-Encoder (HGAE) | arXiv 2024 | 카드·거래(이종) | [link](credit-card-fraud/hg-autoencoder.md) |
 
 ### 2025
 | 논문 | 발표처 | 주제 | concept |
@@ -88,6 +90,7 @@ GNN과 FDS를 연계한 논문 37편입니다(주력은 **2024–2026**, 일부 
 | ⭐ RGTAN | **IEEE TKDE 2025** | 카드·거래 | [link](credit-card-fraud/rgtan.md) |
 | ⭐ Grad | **WWW 2025** | 카드·거래 | [link](credit-card-fraud/grad.md) |
 | ⭐ GAAP | **AAAI 2025** | 이질성·GFD | [link](heterophily-spectral/gaap.md) |
+| Dynamic HG Contrastive (TH-GCL) | IEEE Access 2025 | 카드·거래(동적·이종) | [link](credit-card-fraud/dynamic-hg-contrastive.md) |
 
 ### 2026
 | 논문 | 발표처 | 주제 | concept |
@@ -99,10 +102,12 @@ GNN과 FDS를 연계한 논문 37편입니다(주력은 **2024–2026**, 일부 
 | UniDetect | arXiv 2026 | AML·암호화폐 | [link](aml-crypto/unidetect.md) |
 | OES-GNN | arXiv 2026 | 카드·거래 | [link](credit-card-fraud/oes-gnn.md) |
 | GAD in the Wild (benchmark) | arXiv 2026 | 강건성 | [link](robustness-explainability/gad-in-the-wild.md) |
+| FFD-DHG | Intelligent Computing 2026 | 카드·거래(동적·이종) | [link](credit-card-fraud/ffd-dhg.md) |
 
 ### 기반 논문 (2020–2023 — 이후 연구의 토대)
 | 논문 | 발표처 | 주제 | concept |
 |------|--------|------|---------|
+| ⭐ GEM (Alipay) | **CIKM 2018** | 카드·거래(이종) | [link](credit-card-fraud/hgnn-malicious-account.md) |
 | ⭐ CARE-GNN | **CIKM 2020** | 이질성·GFD | [link](heterophily-spectral/care-gnn.md) |
 | ⭐ PC-GNN | **WWW 2021** | 이질성·GFD | [link](heterophily-spectral/pc-gnn.md) |
 | ⭐ GTAN | **AAAI 2023** | 카드·거래 | [link](credit-card-fraud/gtan.md) |

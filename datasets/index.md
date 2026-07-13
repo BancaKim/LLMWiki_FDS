@@ -24,6 +24,8 @@ timestamp: 2026-06-18T00:00:00Z
 | **T-Finance / T-Social** | 금융·소셜 이상탐지 | [t-finance-t-social.md](t-finance-t-social.md) |
 | **DGraph-Fin** | 핀테크 대출 그래프(대규모) | [dgraph-fin.md](dgraph-fin.md) |
 | **FFSD / S-FFSD** | 거래사기 (반)지도 | [ffsd.md](ffsd.md) |
+| **IEEE-CIS** | 신용카드/전자결제(이종 그래프 원천) | [ieee-cis.md](ieee-cis.md) |
+| **FiGraph** | 상장기업 재무사기(동적 이종) | [figraph.md](figraph.md) |
 
 ## 자금세탁·암호화폐 (AML / Crypto)
 | 데이터셋 | 도메인 | 문서 |

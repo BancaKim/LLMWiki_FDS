@@ -43,8 +43,16 @@ bands)** 으로 분할해 이질성에 대응. ② **지역 환경 제약 모듈
 4개 실제 사기 데이터에서 경쟁 그래프 탐지기 능가 (예: [Amazon](../../datasets/amazon.md) AUC ≈ 96.21%,
 [YelpChi](../../datasets/yelpchi.md) ≈ 90.58%).
 
+## 구조 상세 (그래프 종류·파이프라인·GNN)
+- **그래프 종류**: **동질(단일 노드 타입)이나 다관계(multi-relation)** — 노드 타입 이종이 아니라
+  **이질성(heterophily)·스펙트럼** 관점의 그래프(예: YelpChi의 R-U-R/R-T-R/R-S-R).
+- **데이터**: **Amazon·YelpChi·T-Finance·T-Social**(4종). 노드·엣지 수 *(본 논문 기준 미확인)*.
+- **파이프라인**: `다관계 그래프 → 하이브리드 필터링(스펙트럼 혼합 주파수 대역 band-pass) → 지역 환경 제약(라벨 활용) → 분류 → Fraud Score`.
+- **GNN 백본**: **스펙트럼 GNN(다중 대역 band-pass 필터)** — 동질성 가정 GCN/GAT가 이질 그래프에서
+  실패하므로 고주파(이질) 신호를 보존하려 선택.
+
 ## 관련 링크
-- 개념: [스펙트럼 필터링, 이질성](../../concepts/glossary.md)
+- 개념: [스펙트럼 필터링, 이질성](../../concepts/glossary.md) · [그래프 종류·GNN 백본](../../concepts/graph-types.md)
 - 코드: [github.com/Sunxkissed/SEC-GFD](https://github.com/Sunxkissed/SEC-GFD)
 - 같은 흐름: [PMP](pmp.md), [HUGE](huge.md)
 
