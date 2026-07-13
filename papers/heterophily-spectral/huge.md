@@ -39,8 +39,15 @@ timestamp: 2026-06-18T00:00:00Z
 ## 결과·데이터셋 (Results)
 6개 데이터셋에서 일관되게 경쟁모델 능가.
 
+## 구조 상세 (그래프 종류·파이프라인·GNN)
+- **그래프 종류**: **동질(단일 노드 타입)·이질성 인식·비지도** — 노드 타입 이종이 아니라 **라벨 없는
+  이질성 추정(HALO)** 이 핵심.
+- **데이터**: **6개 공개 데이터셋**(Amazon·Facebook·Reddit·YelpChi·AmazonFull·YelpChiFull). 노드·엣지 수 *(미확인)*.
+- **파이프라인**: `속성 그래프(무라벨) → 이질성 추정(HALO) → MLP-GNN 결합 → 랭킹 손실 + 비대칭 정렬 손실 → 사기 점수 랭킹`.
+- **GNN 백본**: **MLP + GNN 결합**(MLP는 over-smoothing 회피, GNN은 구조 포착). 기저 GNN은 GCN 계열 추정 *(미확인)*.
+
 ## 관련 링크
-- 개념: [이질성, 비지도학습](../../concepts/glossary.md)
+- 개념: [이질성, 비지도학습](../../concepts/glossary.md) · [그래프 종류·GNN 백본](../../concepts/graph-types.md)
 - 코드: [github.com/CampanulaBells/HUGE-GAD](https://github.com/CampanulaBells/HUGE-GAD)
 - 같은 흐름: [PMP](pmp.md), [SEC-GFD](sec-gfd.md)
 

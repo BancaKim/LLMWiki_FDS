@@ -16,6 +16,7 @@ timestamp: 2026-06-18T00:00:00Z
 |-----------|------|
 | [개요 (overview)](overview.md) | GNN을 FDS에 쓰는 이유와 3대 도전과제 |
 | [분류 체계 (taxonomy)](taxonomy.md) | 연구를 나누는 축과 카테고리 매핑 |
+| [그래프 종류·GNN (graph-types)](graph-types.md) | 그래프 구조 4종(동질·이종·하이퍼·동적) + GNN 백본 + 구조별 색인 |
 | [데이터셋 개요 (datasets-overview)](datasets-overview.md) | 평가지표·데이터셋 선택 가이드 (→ [카탈로그](../datasets/index.md)) |
 | [용어집 (glossary)](glossary.md) | 핵심 개념·약어 사전 |
 | [동향·과제 (trends-and-challenges)](trends-and-challenges.md) | 2024–2026 트렌드와 미해결 문제 |

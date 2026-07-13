@@ -32,11 +32,20 @@ timestamp: 2026-06-18T00:00:00Z
 - 시간 감쇠 + **SMOTE·비용민감 학습** 으로 불균형 대응
 
 ## 결과·데이터셋 (Results)
-[GCN/GAT/GraphSAGE](../../concepts/glossary.md) 등 기존 GNN 대비 정확도·AUC 개선 보고
-*(구체 데이터셋·수치 미확인)*.
+**데이터셋: [IEEE-CIS Fraud Detection](../../datasets/ieee-cis.md)** (공개). 노드 = 사용자·상점·거래.
+GCN/GAT/GraphSAGE/R-GCN 대비 개선 — 보고 **정확도 94.7%, AUC-ROC 0.921**, 파라미터 약 3.9M
+(R-GCN보다 적음). 노드·엣지 수 *(미확인)*.
+
+## 구조 상세 (그래프 종류·파이프라인·GNN)
+- **그래프 종류**: **Heterogeneous** (+ temporal-decay). 사용자·상점·거래 다중 타입을 attention으로
+  가중하고 시간 감쇠로 시점 민감도를 높이기 위해 선택.
+- **파이프라인**: `거래(Raw) → 이종 그래프(사용자/상점/거래) → 불균형 처리(SMOTE+비용민감) →
+  Graph Attention + 시간 감쇠 → 분류 → Fraud Score`.
+- **GNN 백본**: **GAT 기반 이종 GNN**(관계별 동적 가중). 비교 백본: GCN·GAT·GraphSAGE·R-GCN.
 
 ## 관련 링크
-- 개념: [클래스 불균형](../../concepts/overview.md), [이종 그래프](../../concepts/taxonomy.md)
+- 개념: [클래스 불균형](../../concepts/overview.md), [그래프 종류·GNN 백본](../../concepts/graph-types.md)
+- 데이터셋: [IEEE-CIS](../../datasets/ieee-cis.md) · 같은 흐름(이종): [GEM](hgnn-malicious-account.md), [HG Auto-Encoder](hg-autoencoder.md)
 
 ---
 [← 카테고리](index.md)

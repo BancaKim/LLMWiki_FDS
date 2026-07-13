@@ -9,6 +9,21 @@ timestamp: 2026-06-18T00:00:00Z
 
 OKF 예약 파일입니다. 번들의 변경 이력을 시간 순으로 기록합니다.
 
+## 2026-06-19 — 이종·동적·하이퍼그래프 확장 (37→41) + 그래프 종류 개념
+
+- [concepts/graph-types.md](concepts/graph-types.md) 신설 — 그래프 4종(동질·이종·하이퍼·동적) 설명 +
+  GNN 백본(GCN·GraphSAGE·GAT·R-GCN·HAN·HGT·HGNN·HyperGCN) 매핑 + 구조별 논문 색인. 개념 index 연결.
+- 신규 논문 4편(요청 6개 항목 형식: 기본정보·배경·데이터셋(노드/엣지)·그래프종류+이유·파이프라인·GNN 백본):
+  - ⭐ **GEM** (Alipay 악성계정, **CIKM 2018**, 계정-디바이스 이종, ~8M 노드/~10M 엣지),
+    **HGAE** (arXiv 2024, 이종 오토인코더), **FFD-DHG** (Intelligent Computing 2026, [FiGraph](datasets/figraph.md)),
+    **Dynamic HG Contrastive** (정확 매칭 미확인 → 근접 확인 **TH-GCL**, IEEE Access 2025).
+- 기존 4편(HGNN+Attention·MH-LGC·SEC-GFD·HUGE)에 **'구조 상세'**(그래프 종류·파이프라인·GNN 백본·
+  데이터셋 노드/엣지) 보강.
+- 데이터셋 concept 2종 추가: [FiGraph](datasets/figraph.md), [IEEE-CIS](datasets/ieee-cis.md).
+- 편수 **37→41**, ⭐ **18→19**(GEM).
+- ⚠️ 요청 #5 *"Dynamic Heterogeneous Graph Contrastive Learning (2026)"* 정확히 일치하는 논문 **미확인**
+  → 근접 TH-GCL(IEEE Access 2025)로 정리. 원 제목/출처 확인 시 교체 예정.
+
 ## 2026-06-19 — awesome-fraud-detection 후보 검토: 핵심 GFD 논문 4편 추가 (33→37편)
 
 - [awesome-fraud-detection](resources/awesome-fraud-detection.md) 후보 검토 후, AI-탑티어 핵심 GFD 논문
