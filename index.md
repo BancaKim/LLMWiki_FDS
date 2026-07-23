@@ -12,7 +12,7 @@ timestamp: 2026-06-18T00:00:00Z
 > 본 번들은 [Open Knowledge Format (OKF) v0.1](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing) 사양을 따릅니다.
 
 이 위키는 arXiv / alphaXiv 및 주요 학회(NeurIPS, ICLR, KDD, AAAI, IJCAI, CIKM, ICAIF 등)에 공개된
-**GNN 기반 Fraud Detection System** 연구 41편을 OKF **concept** 문서로 정리합니다.
+**GNN 기반 Fraud Detection System** 연구 45편을 OKF **concept** 문서로 정리합니다.
 
 ## 이 번들의 구조 (OKF)
 
@@ -34,7 +34,7 @@ timestamp: 2026-06-18T00:00:00Z
 |------|------|----------|
 | 📚 배경 개념 | GNN×FDS 개요·분류·용어·동향 | [concepts/index.md](concepts/index.md) |
 | 🧪 데이터셋 | 표준 벤치마크 데이터셋 | [datasets/index.md](datasets/index.md) |
-| 📄 논문 | 41편 논문 (6개 주제) | [papers/index.md](papers/index.md) |
+| 📄 논문 | 45편 논문 (6개 주제) | [papers/index.md](papers/index.md) |
 | 📦 외부 리소스 | AI4Risk antifraud(코드)·awesome-fraud-detection(목록) | [resources/index.md](resources/index.md) |
 | 🧰 노트앱으로 보기 | Obsidian으로 iPad·iPhone·Mac 동기화 | [obsidian-setup.md](obsidian-setup.md) |
 | 📊 대시보드 | Dataview 동적 목록(⭐/연도/태그별) | [dashboard.md](dashboard.md) |
@@ -47,12 +47,12 @@ timestamp: 2026-06-18T00:00:00Z
 | 주제 | 논문 수 | ⭐ 필독 | 바로가기 |
 |------|:------:|:------:|----------|
 | 📊 서베이·리뷰 | 3 | 0 | [papers/surveys/index.md](papers/surveys/index.md) |
-| 💳 신용카드·거래·금융 사기 | 16 | 5 | [papers/credit-card-fraud/index.md](papers/credit-card-fraud/index.md) |
-| 🤖 LLM × GNN | 7 | 4 | [papers/llm-gnn/index.md](papers/llm-gnn/index.md) |
+| 💳 신용카드·거래·금융 사기 | 17 | 5 | [papers/credit-card-fraud/index.md](papers/credit-card-fraud/index.md) |
+| 🤖 LLM × GNN | 8 | 4 | [papers/llm-gnn/index.md](papers/llm-gnn/index.md) |
 | 🏦 AML·암호화폐 | 4 | 1 | [papers/aml-crypto/index.md](papers/aml-crypto/index.md) |
-| 🌐 이질성·스펙트럼·핵심 GFD | 7 | 7 | [papers/heterophily-spectral/index.md](papers/heterophily-spectral/index.md) |
+| 🌐 이질성·스펙트럼·핵심 GFD | 9 | 7 | [papers/heterophily-spectral/index.md](papers/heterophily-spectral/index.md) |
 | 🛡️ 강건성·설명가능성 | 4 | 2 | [papers/robustness-explainability/index.md](papers/robustness-explainability/index.md) |
-| **합계** | **41** | **19** | — |
+| **합계** | **45** | **19** | — |
 
 ### ⭐ 필독 논문 (탑티어 학회) — 19편
 
