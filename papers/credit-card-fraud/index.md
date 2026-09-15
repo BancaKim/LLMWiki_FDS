@@ -1,7 +1,7 @@
 ---
 type: Index
 title: 💳 신용카드·거래·금융 사기
-description: 카드·거래·금융/계정 사기 탐지 GNN 논문 16편. 시간성·고차 관계·Graph Transformer·이종/동적 그래프·그래프 증강이 주요 흐름.
+description: 카드·거래·금융/계정 사기 탐지 GNN 논문 17편. 시간성·고차 관계·Graph Transformer·이종/동적 그래프·그래프 증강이 주요 흐름.
 tags: [credit-card, transaction-fraud, heterogeneous, dynamic, gnn]
 timestamp: 2026-06-19T00:00:00Z
 ---
@@ -35,6 +35,7 @@ FDS의 가장 핵심적인 응용. 거래·계정을 노드로, 계좌·상점·
 |   | Dynamic HG Contrastive (TH-GCL) | IEEE Access 2025 | 시간 이종 그래프 + 대조학습 | [dynamic-hg-contrastive.md](dynamic-hg-contrastive.md) |
 |   | RGCN Customer Contact | arXiv 2025 | RGCN + 운영 효율 | [rgcn-customer-contact.md](rgcn-customer-contact.md) |
 |   | OES-GNN | arXiv 2026 | One-side Edge Sampling(효율) | [oes-gnn.md](oes-gnn.md) |
+|   | STC-MixHop | arXiv 2026 | 동적·다중스케일(MixHop)+시간일관성 | [stc-mixhop.md](stc-mixhop.md) |
 
 > 관련 데이터셋: [YelpChi](../../datasets/yelpchi.md) · [Amazon](../../datasets/amazon.md) ·
 > [FFSD](../../datasets/ffsd.md) · [IEEE-CIS](../../datasets/ieee-cis.md) · [FiGraph](../../datasets/figraph.md) ·
