@@ -1,7 +1,7 @@
 ---
 type: Index
 title: 🤖 LLM × GNN
-description: 대규모 언어모델(LLM)과 그래프 신경망(GNN)을 결합해 텍스트 의미정보를 사기 탐지에 활용하는 논문 8편. 4편이 탑티어 학회 필독.
+description: 대규모 언어모델(LLM)과 그래프 신경망(GNN)을 결합해 텍스트 의미정보를 사기 탐지에 활용하는 논문 10편. 4편이 탑티어 학회 필독.
 tags: [llm, gnn, text-attributed-graph, fusion, must-read]
 timestamp: 2026-06-19T00:00:00Z
 ---
@@ -26,6 +26,8 @@ timestamp: 2026-06-19T00:00:00Z
 |   | LGSPF | arXiv 2026 | soft prompt LLM-GNN | [lgspf.md](lgspf.md) |
 |   | Graph-LLM XAI Framework | arXiv 2023± | 멀티모달 + 서술 생성 | [graph-llm-xai.md](graph-llm-xai.md) |
 |   | L2IR | arXiv 2026 | LLM 잠재 의도(intent) 추론 | [l2ir.md](l2ir.md) |
+|   | N2N | arXiv 2026 | 노드-이웃 의미 일관성(TAG) | [n2n-semantic-consistency.md](n2n-semantic-consistency.md) |
+|   | ProTAGAD | arXiv 2026 | TAG 이상탐지 파운데이션 모델 | [protagad.md](protagad.md) |
 
 > 관련 개념: [LLM × GNN 용어](../../concepts/glossary.md) ·
 > 관련 데이터셋(텍스트 보존): [YelpChi](../../datasets/yelpchi.md), [Amazon](../../datasets/amazon.md)

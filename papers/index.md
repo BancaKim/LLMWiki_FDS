@@ -1,7 +1,7 @@
 ---
 type: Index
 title: 논문 모음 (Papers)
-description: 2018–2026 GNN × FDS 논문 45편을 6개 주제로 분류한 concept 모음(핵심 기반 논문 포함). ⭐ = 탑티어 학회 필독 논문.
+description: 2018–2026 GNN × FDS 논문 49편을 6개 주제로 분류한 concept 모음(핵심 기반 논문 포함). ⭐ = 탑티어 학회 필독 논문.
 tags: [papers, index, gnn, fds, 2024, 2025, 2026, must-read]
 timestamp: 2026-06-19T00:00:00Z
 ---
@@ -10,7 +10,7 @@ timestamp: 2026-06-19T00:00:00Z
 
 [← 번들 루트](../index.md) · 배경은 [개념 목록](../concepts/index.md)
 
-GNN과 FDS를 연계한 논문 45편입니다(주력은 **2024–2026**, 일부 핵심 **기반 논문** 포함). 각 논문은 `문제 → 방법 → 기여 → 결과 → 링크`
+GNN과 FDS를 연계한 논문 49편입니다(주력은 **2024–2026**, 일부 핵심 **기반 논문** 포함). 각 논문은 `문제 → 방법 → 기여 → 결과 → 링크`
 양식의 concept 문서입니다.
 
 > **범례**: ⭐ = **탑티어 학회 게재 필독(MUST-READ) 논문** (ICLR · KDD · AAAI · IJCAI · CIKM · ACM MM 등).
@@ -39,6 +39,8 @@ GNN과 FDS를 연계한 논문 45편입니다(주력은 **2024–2026**, 일부 
 | ⭐ | CARE-GNN: Camouflage-Resistant | **CIKM 2020** | 이질성·GFD | [link](heterophily-spectral/care-gnn.md) |
 | ⭐ | PC-GNN: Pick and Choose | **WWW 2021** | 이질성·GFD | [link](heterophily-spectral/pc-gnn.md) |
 | ⭐ | GEM: Malicious Account (Alipay) | **CIKM 2018** | 카드·거래(이종) | [link](credit-card-fraud/hgnn-malicious-account.md) |
+| ⭐ | IMEX: Neighborhood+Community MoE | **WWW 2026** | 이질성·GFD | [link](heterophily-spectral/imex.md) |
+| ⭐ | CAMERA: Semantic Camouflage (TAG) | **IJCAI 2026** | 이질성·GFD | [link](heterophily-spectral/camera.md) |
 
 > 🏅 **참고(준-탑티어/우수 저널)**: [FraudGT](credit-card-fraud/fraudgt.md)(ICAIF 2024),
 > [STA-GT](credit-card-fraud/sta-gt.md)(IEEE TII).
@@ -48,11 +50,11 @@ GNN과 FDS를 연계한 논문 45편입니다(주력은 **2024–2026**, 일부 
 |------|:------:|:------:|----------|
 | 📊 서베이·리뷰 | 3 | 0 | [surveys/index.md](surveys/index.md) |
 | 💳 신용카드·거래·금융 사기 | 17 | 5 | [credit-card-fraud/index.md](credit-card-fraud/index.md) |
-| 🤖 LLM × GNN | 8 | 4 | [llm-gnn/index.md](llm-gnn/index.md) |
+| 🤖 LLM × GNN | 10 | 4 | [llm-gnn/index.md](llm-gnn/index.md) |
 | 🏦 AML·암호화폐 | 4 | 1 | [aml-crypto/index.md](aml-crypto/index.md) |
-| 🌐 이질성·스펙트럼·핵심 GFD | 9 | 7 | [heterophily-spectral/index.md](heterophily-spectral/index.md) |
+| 🌐 이질성·스펙트럼·핵심 GFD | 11 | 9 | [heterophily-spectral/index.md](heterophily-spectral/index.md) |
 | 🛡️ 강건성·설명가능성 | 4 | 2 | [robustness-explainability/index.md](robustness-explainability/index.md) |
-| **합계** | **45** | **19** | — |
+| **합계** | **49** | **21** | — |
 
 ## 전체 논문 색인 (연도순)
 
@@ -104,9 +106,13 @@ GNN과 FDS를 연계한 논문 45편입니다(주력은 **2024–2026**, 일부 
 | GAD in the Wild (benchmark) | arXiv 2026 | 강건성 | [link](robustness-explainability/gad-in-the-wild.md) |
 | FFD-DHG | Intelligent Computing 2026 | 카드·거래(동적·이종) | [link](credit-card-fraud/ffd-dhg.md) |
 | L2IR | arXiv 2026 | LLM×GNN | [link](llm-gnn/l2ir.md) |
-| CAMERA | arXiv 2026 | 이질성·GFD | [link](heterophily-spectral/camera.md) |
+| ⭐ CAMERA | **IJCAI 2026** | 이질성·GFD | [link](heterophily-spectral/camera.md) |
 | DPF-GFD | arXiv 2026 | 이질성·GFD | [link](heterophily-spectral/dpf-gfd.md) |
 | STC-MixHop | arXiv 2026 | 카드·거래(동적) | [link](credit-card-fraud/stc-mixhop.md) |
+| ⭐ IMEX | **WWW 2026** | 이질성·GFD | [link](heterophily-spectral/imex.md) |
+| GFD-GC | arXiv 2026 | 이질성·GFD | [link](heterophily-spectral/gfd-gc.md) |
+| N2N | arXiv 2026 | LLM×GNN | [link](llm-gnn/n2n-semantic-consistency.md) |
+| ProTAGAD | arXiv 2026 | LLM×GNN | [link](llm-gnn/protagad.md) |
 
 ### 기반 논문 (2020–2023 — 이후 연구의 토대)
 | 논문 | 발표처 | 주제 | concept |

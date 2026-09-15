@@ -1,19 +1,23 @@
 ---
 type: Research Paper
+must_read: true
+venue_tier: top-tier conference
 title: "CAMERA: Adapting to Semantic Camouflage in Unsupervised Text-Attributed Graph Fraud Detection"
 description: 사기범이 정상 사용자의 텍스트 응답을 모방하는 '의미 위장(semantic camouflage)'에 대응하는 비지도 TAG 사기 탐지. ego-decoupled MoE + 문맥 게이팅.
 resource: https://arxiv.org/abs/2605.20032
-tags: [unsupervised, text-attributed-graph, semantic-camouflage, mixture-of-experts, heterophily]
-venue: arXiv 2026
+tags: [unsupervised, text-attributed-graph, semantic-camouflage, mixture-of-experts, heterophily, must-read]
+venue: IJCAI 2026
 year: 2026
 timestamp: 2026-06-19T00:00:00Z
 ---
 
-# CAMERA: Adapting to Semantic Camouflage in Unsupervised Text-Attributed Graph Fraud Detection
+# ⭐ CAMERA: Adapting to Semantic Camouflage in Unsupervised Text-Attributed Graph Fraud Detection
+
+> ⭐ **필독 (MUST-READ)** · 탑티어 학회 게재: **IJCAI 2026**
 
 [← 카테고리](index.md) · 원문: [arXiv:2605.20032](https://arxiv.org/abs/2605.20032)
 
-- **발표처/연도**: arXiv 2026 (2026-05 공개)
+- **발표처/연도**: **IJCAI 2026** (arXiv:2605.20032, 2026-05 공개). CAMERA = *Case-Adaptive Multi-cue Expert fRAmework*.
 
 ## 문제 (Problem)
 텍스트 속성 그래프 사기 탐지(TAGFD)에서, 사기범이 **정상 사용자의 텍스트 응답을 의도적으로 모방** 해
