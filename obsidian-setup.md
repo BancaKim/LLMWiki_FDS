@@ -35,7 +35,7 @@ iCloud가 굿노트처럼 기기 간 자동 동기화를 해 주고, **GitHub �
 ### ⚡ 빠른 시작 — 맥에서 한 줄 실행 (자동 클론)
 터미널에 붙여넣기:
 ```bash
-curl -fsSL https://raw.githubusercontent.com/BancaKim/LLMWiki_FDS/claude/wizardly-clarke-be1m7k/scripts/setup-mac.command | bash
+curl -fsSL https://raw.githubusercontent.com/BancaKim/LLMWiki_FDS/main/scripts/setup-mac.command | bash
 ```
 또는 저장소를 이미 받았다면 `scripts/setup-mac.command` 를 **더블클릭**.
 → iCloud Obsidian 폴더로 클론하고 보관소 열기를 시도합니다. 이후 [추천 플러그인](#-추천-플러그인)만 설치하면 끝.
@@ -85,6 +85,35 @@ GitHub를 **유일한 원본**으로 두고 싶을 때. iOS는 손이 조금 더
    - 장점: 모든 기기가 GitHub와 직접 동기화 / 단점: 모바일에서 수동 pull·push.
 
 ---
+
+## 🔧 동기화 충돌이 났을 때 (맥에서 한 줄)
+
+Obsidian Git 이 *"Merge conflict"*·*"could not apply"* 를 띄우거나 push 가 계속 실패하면, **보관소 폴더에서**
+아래 한 줄을 실행하세요. 저장소가 비공개여도, 충돌이 난 상태여도 동작합니다.
+
+```bash
+cd ~/Library/Mobile\ Documents/iCloud~md~obsidian/Documents/LLMWiki_FDS \
+  && git fetch origin && bash <(git show origin/main:scripts/fix-sync-conflict.command)
+```
+
+- 먼저 **진단만** 보고 싶으면 끝에 ` --check` 를 붙이세요(아무것도 바꾸지 않음).
+- 스크립트([scripts/fix-sync-conflict.command](scripts/fix-sync-conflict.command))가 하는 일:
+  1. **전체 백업** — `~/LLMWiki_FDS_backup_<시각>/` + git 브랜치 `backup/<시각>` (+ `git stash` 는 그대로, 사본은 `_stash/`)
+  2. 멈춘 merge/rebase 정리 → 보관소를 **최신 `main`** 으로 전환(앞으로 `main` 추적)
+  3. **위키 파일은 `main`(정본)** 으로, **`notes/`·`.obsidian/` 은 내 로컬 버전 우선**으로 복원 후 로컬 커밋
+  4. iCloud 중복본(`index 2.md` 등)은 백업 후 정리
+- 이미 정상인 보관소에서 실행하면 **아무것도 바꾸지 않습니다**(또는 fast-forward 만).
+
+## 🛡️ 충돌 예방 원칙
+
+| 원칙 | 이유 |
+|------|------|
+| 보관소는 **`main`** 을 추적 (Claude 작업 브랜치 X) | Claude 는 작업 브랜치에서 일하고 PR 로만 `main` 에 반영 → 같은 브랜치에 두 명이 쓰지 않음 |
+| 개인 메모는 **[`notes/`](notes/index.md)** 폴더에만 | Claude 가 절대 수정하지 않는 영역 → 구조적으로 충돌 불가 |
+| `index.md`·`log.md`·`papers/**` 등 위키 페이지는 직접 편집 X | 갱신 때마다 Claude 가 다시 씀 → 편집하면 충돌. 고칠 점은 Claude 에게 요청 |
+| git 동기화는 **맥에서만** | 아이패드·아이폰은 iCloud 로만 동기화 |
+| Finder 에서 보관소 폴더 **우클릭 → '다운로드 유지'** | iCloud 저장공간 최적화가 파일을 빼면 git 이 '삭제'로 오인 |
+| Obsidian Git: *Pull on startup* 켜기, *Sync method* = **Merge** | 오래된 상태에서 쓰기 시작하는 일을 줄임 |
 
 ## 🧩 추천 플러그인 (Settings → Community plugins)
 
