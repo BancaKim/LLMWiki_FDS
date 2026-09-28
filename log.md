@@ -9,6 +9,22 @@ timestamp: 2026-06-18T00:00:00Z
 
 OKF 예약 파일입니다. 번들의 변경 이력을 시간 순으로 기록합니다.
 
+## 2026-09-28 — 맥 Obsidian 보관소 동기화 충돌 해결 + 재발 방지
+
+- **진단**: GitHub 쪽은 정상(열린 PR 0, 브랜치 2개, 작업 브랜치는 main 의 조상 — 히스토리 재작성 없음), Routine 0개.
+  충돌은 **맥 보관소(Obsidian Git)** 에서 발생. 원인: 설치 스크립트가 보관소를 **Claude 작업 브랜치**
+  (`claude/wizardly-clarke-be1m7k`)로 클론 → 사용자 자동 커밋과 Claude 갱신이 **같은 브랜치의 같은 파일**
+  (`log.md`·`index.md`·`papers/index.md`, 각 6~7회 수정)을 건드려 merge 충돌.
+  또한 저장소 **기본 브랜치가 작업 브랜치**로 잡혀 있음(사용자가 Settings 에서 `main` 으로 변경 필요).
+- **복구 도구** [`scripts/fix-sync-conflict.command`](scripts/fix-sync-conflict.command): 전체 백업(폴더+브랜치+stash 사본)
+  → merge/rebase 정리 → 최신 `main` 추적 전환 → 위키는 main 정본, `notes/`·`.obsidian/` 은 로컬 우선 복원.
+  `--check` 진단 모드, 정상 보관소면 무변경. rsync 등 외부 도구 불필요(cp·tar·git 만).
+  - 검증: 재현 테스트 5종 **42/42 통과** — merge 충돌, rebase 충돌+stash, 정상 보관소 재실행(무변경),
+    복구 후 Claude 갱신 pull(무충돌), push 된 노트 로컬 수정 보존.
+- **재발 방지**: 설치 스크립트 추적 브랜치 → `main`; `.gitignore` 에 `.obsidian/plugins/`·`themes/`;
+  개인 영역 [`notes/`](notes/index.md) 신설(Claude 수정 금지); [CLAUDE.md](CLAUDE.md)·주간 Routine 지시문에 동기화 규칙 추가;
+  [obsidian-setup.md](obsidian-setup.md) 에 충돌 복구·예방 원칙. CLAUDE.md 의 낡은 ⭐ 목록(10편)을 정본 포인터로 교체.
+
 ## 2026-09-15 — 최신 스캔 #3: 신규 4편 + CAMERA ⭐ 승격 (45→49)
 
 - "업데이트" 갱신(오늘 2026-09-15). PR #5(6월 스캔) main 머지 후 최신(6~8월 2026) 신규 4편 추가:

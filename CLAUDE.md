@@ -27,9 +27,8 @@
 - 소규모·도메인 한정 학회: ISDFS, AINIT, ICAIBD 등
 - arXiv 프리프린트(정식 게재처 미확인) — 게재 확정 시 위 기준으로 재평가
 
-### 현재 ⭐ 필독 10편 (AI 탑티어)
-PMP(ICLR'24) · SEC-GFD(AAAI'24) · SEFraud(KDD'24) · HOGRL(IJCAI'24) · DIAM(CIKM'24) ·
-HUGE(AAAI'25) · MonTi(AAAI'25) · FLAG(KDD'25) · MLED(ACM MM'25) · DGP(AAAI'26)
+### 현재 ⭐ 목록
+정본은 [`papers/index.md`](papers/index.md) 의 **⭐ 필독 논문** 표 (여기에 목록을 복제하지 않는다 — 낡음 방지).
 
 > 위 venue 목록은 사용자가 언제든 조정할 수 있다. 새 논문 추가/등급 변경 시 **반드시 이 기준**을 적용할 것.
 
@@ -54,6 +53,16 @@ HUGE(AAAI'25) · MonTi(AAAI'25) · FLAG(KDD'25) · MLED(ACM MM'25) · DGP(AAAI'2
 - 파일 간 **상대경로 markdown 링크**로 지식 그래프를 구성 (절대 `/path` 금지 — GitHub 렌더링 호환).
 - 논문 본문 양식: **문제 → 방법 → 핵심 기여 → 결과·데이터셋 → 관련 링크**.
 - 확인 안 된 사실은 날조하지 말고 `(미확인)`으로 표기하고 [`log.md`](log.md)에 정리.
+
+## 🔄 동기화·브랜치 규칙 (사용자 Obsidian 보관소 보호)
+
+- 사용자의 맥 Obsidian 보관소는 **`main`** 을 추적한다. Claude 는 작업 브랜치에서만 커밋하고 **PR 로만 `main` 에 반영**한다
+  (같은 브랜치에 사용자·Claude 가 동시에 쓰면 충돌 — 2026-09 실제 발생 원인).
+- **`notes/` 는 사용자 개인 영역** — Claude 는 그 안의 파일을 만들거나 수정·삭제하지 않는다(최초 안내 파일 `notes/index.md` 제외).
+  OKF frontmatter 검증 대상에서도 제외.
+- `.obsidian/` 설정은 사용자 것 — Claude 는 수정하지 않는다(플러그인·테마·캐시는 `.gitignore`).
+- 사용자 보관소에서 충돌이 나면 [`scripts/fix-sync-conflict.command`](scripts/fix-sync-conflict.command) 로 복구 안내
+  ([obsidian-setup.md](obsidian-setup.md) 참고).
 
 ## 작업 후 점검
 - 내부 링크 무결성(모든 상대 링크 resolve) + frontmatter `type` 존재 + YAML 유효성 확인.

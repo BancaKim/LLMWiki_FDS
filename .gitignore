@@ -3,6 +3,9 @@
 .obsidian/workspace-mobile.json
 .obsidian/cache
 .obsidian/**/data.json
+# 플러그인·테마 코드(기기별 설치물, 커밋하면 충돌·용량 증가)
+.obsidian/plugins/
+.obsidian/themes/
 .trash/
 
 # macOS / iOS / Windows

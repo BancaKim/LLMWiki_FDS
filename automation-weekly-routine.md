@@ -17,12 +17,12 @@ timestamp: 2026-06-19T00:00:00Z
 
 ---
 
-## ✅ 사전 준비 — 먼저 PR #1을 `main`에 머지
+## ✅ 사전 준비 — 저장소 기본 브랜치를 `main` 으로
 
-Routine은 저장소의 **기본 브랜치(`main`)** 를 클론해서 동작합니다. 지금 `main` 은 비어 있고,
-위키·`CLAUDE.md`·실행 지시문은 **PR #1** 에만 있습니다.
-**→ [PR #1](https://github.com/BancaKim/LLMWiki_FDS/pull/1) 을 `main` 에 머지한 뒤** Routine을 만드세요.
-(머지 전에는 주간 실행이 빈 `main` 을 클론해 아무것도 못 합니다.)
+Routine 과 새 클론은 저장소의 **기본 브랜치**에서 시작합니다. 최초 푸시 이력 때문에 기본 브랜치가
+Claude 작업 브랜치(`claude/wizardly-clarke-be1m7k`)로 잡혀 있으면, 아직 머지되지 않은 작업에서 시작하게 됩니다.
+**→ GitHub 저장소 Settings → General → Default branch 를 `main` 으로 바꾼 뒤** Routine 을 만드세요.
+(위키 정본은 `main` 입니다. 맥 Obsidian 보관소도 `main` 을 추적 — [obsidian-setup.md](obsidian-setup.md) 참고)
 
 ---
 

@@ -11,7 +11,7 @@
 set -euo pipefail
 
 REPO_URL="https://github.com/BancaKim/LLMWiki_FDS.git"
-BRANCH="claude/wizardly-clarke-be1m7k"   # PR 머지 후에는 main 으로 바꾸세요
+BRANCH="main"   # 보관소는 항상 정본 main 을 추적 (Claude 작업 브랜치 X — 충돌 방지)
 ICLOUD_OBSIDIAN="$HOME/Library/Mobile Documents/iCloud~md~obsidian/Documents"
 DEST="${DEST:-$ICLOUD_OBSIDIAN/LLMWiki_FDS}"   # DEST 환경변수로 위치 변경 가능
 
@@ -30,8 +30,16 @@ mkdir -p "$ICLOUD_OBSIDIAN"
 
 # 2) 클론 또는 최신화
 if [ -d "$DEST/.git" ]; then
-  echo "==> 이미 존재 → 최신 내용으로 pull"
-  git -C "$DEST" pull --ff-only origin "$BRANCH" || git -C "$DEST" pull origin "$BRANCH"
+  echo "==> 이미 존재 → 최신화"
+  git -C "$DEST" fetch origin
+  CUR="$(git -C "$DEST" symbolic-ref --quiet --short HEAD || true)"
+  if [ "$CUR" = "$BRANCH" ] && git -C "$DEST" pull --ff-only origin "$BRANCH"; then
+    :
+  else
+    echo "!! 로컬 변경이 있거나 다른 브랜치(${CUR:-detached})를 추적 중이라 자동 최신화를 건너뜁니다."
+    echo "   아래 한 줄로 안전하게 복구하세요(백업 후 main 으로 전환):"
+    echo "   cd \"$DEST\" && bash <(git show origin/main:scripts/fix-sync-conflict.command)"
+  fi
 else
   echo "==> 클론 중..."
   git clone -b "$BRANCH" "$REPO_URL" "$DEST"
