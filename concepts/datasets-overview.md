@@ -21,6 +21,7 @@ timestamp: 2026-06-18T00:00:00Z
 | 신용카드·거래 사기 | [FFSD/S-FFSD](../datasets/ffsd.md), [DGraph-Fin](../datasets/dgraph-fin.md) |
 | AML·암호화폐 | [Elliptic(++)](../datasets/elliptic.md), [IBM AML](../datasets/ibm-aml.md) |
 | LLM × GNN (텍스트 필요) | 원문 텍스트가 살아있는 [YelpChi](../datasets/yelpchi.md)/[Amazon](../datasets/amazon.md) |
+| 국내(한국) 금융 FDS · 프라이버시 없는 실무형 데이터 | [AI-Hub 금융거래 이상판별 합성데이터](../datasets/aihub-financial-anomaly-synthetic.md) (이체·카드, 그래프 직접 구성) |
 | 대규모 확장성 | [T-Social](../datasets/t-finance-t-social.md), [DGraph-Fin](../datasets/dgraph-fin.md), 암호화폐 멀티그래프 |
 
 ## 공통 평가지표

@@ -9,6 +9,24 @@ timestamp: 2026-06-18T00:00:00Z
 
 OKF 예약 파일입니다. 번들의 변경 이력을 시간 순으로 기록합니다.
 
+## 2026-09-28 — 데이터셋 추가: AI-Hub 금융거래 이상판별 합성데이터 🇰🇷 (9→10)
+
+- 사용자 요청으로 **국내 데이터셋** concept 신설:
+  [datasets/aihub-financial-anomaly-synthetic.md](datasets/aihub-financial-anomaly-synthetic.md)
+  — AI-Hub "이상 판별을 위한 금융거래 정보 및 사용자 패턴 합성데이터".
+  - 규모: 전자금융공동망 4,926,785건(이상 19,084) + 카드거래 2,169,857건(이상 80,009) = **7,096,642건**.
+    원천(합성 전) 12,302,694건. 목적: 이상거래 유형 식별·의심거래 분류 근거 추론.
+  - tabular 거래 로그 → GNN 적용용 **그래프 구성 가이드**(거래/이종/계좌 이체 그래프)와 관련 모델 링크 추가.
+- 색인 갱신: [datasets/index.md](datasets/index.md) 금융·거래 사기 표,
+  [concepts/datasets-overview.md](concepts/datasets-overview.md) 선택 가이드(국내 금융 FDS 행).
+- **정정/미확인**:
+  - 요청 번호 `71295` → AI-Hub 실제 번호 **`dataSetSn=71925`** 로 확인(동일 명칭 검색 결과). 오기로 판단.
+  - AI-Hub 페이지 직접 조회 불가(네트워크 차단) → 검색 스니펫·활용 사례(GitHub)로 작성.
+    **구축 기관·구축 연도·컬럼 명세·이상 유형 라벨 체계·라이선스/반출 조건은 (미확인)**.
+  - 참고로 언급한 AI-Hub "금융 합성 데이터"(`dataSetSn=71792`)도 내용 (미확인).
+- 점검 중 발견한 **YAML 오류 수정**: [Grad](papers/credit-card-fraud/grad.md) frontmatter `description` 이 따옴표로 시작해
+  파싱 실패(Dataview 에서 누락되던 문제) → 전체를 큰따옴표로 감쌈. 논문 수 변동 없음(49편, ⭐21, YAML 전수 통과).
+
 ## 2026-09-28 — 맥 Obsidian 보관소 동기화 충돌 해결 + 재발 방지
 
 - **진단**: GitHub 쪽은 정상(열린 PR 0, 브랜치 2개, 작업 브랜치는 main 의 조상 — 히스토리 재작성 없음), Routine 0개.

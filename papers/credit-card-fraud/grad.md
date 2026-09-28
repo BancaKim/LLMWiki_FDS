@@ -3,7 +3,7 @@ type: Research Paper
 must_read: true
 venue_tier: top-tier conference
 title: "Grad: Guided Relation Diffusion Generation for Graph Augmentation in Graph Fraud Detection"
-description: '적응형 위장(Adaptive Camouflage)'에 대응해 지도 그래프 대조학습 + guided relation diffusion으로 동질(homophilic) 관계를 생성·증강하는 그래프 사기 탐지.
+description: "'적응형 위장(Adaptive Camouflage)'에 대응해 지도 그래프 대조학습 + guided relation diffusion으로 동질(homophilic) 관계를 생성·증강하는 그래프 사기 탐지."
 resource: https://arxiv.org/abs/2512.18133
 tags: [credit-card, graph-augmentation, diffusion, contrastive-learning, camouflage, must-read]
 venue: WWW 2025

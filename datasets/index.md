@@ -3,7 +3,7 @@ type: Index
 title: 벤치마크 데이터셋 카탈로그
 description: GNN × FDS 연구에서 반복적으로 쓰이는 표준 벤치마크 데이터셋 concept 모음.
 tags: [datasets, benchmark, catalog]
-timestamp: 2026-06-18T00:00:00Z
+timestamp: 2026-09-28T00:00:00Z
 ---
 
 # 벤치마크 데이터셋 카탈로그
@@ -26,6 +26,7 @@ timestamp: 2026-06-18T00:00:00Z
 | **FFSD / S-FFSD** | 거래사기 (반)지도 | [ffsd.md](ffsd.md) |
 | **IEEE-CIS** | 신용카드/전자결제(이종 그래프 원천) | [ieee-cis.md](ieee-cis.md) |
 | **FiGraph** | 상장기업 재무사기(동적 이종) | [figraph.md](figraph.md) |
+| **AI-Hub 금융거래 이상판별 합성데이터** 🇰🇷 | 국내 전자금융공동망(이체)·카드 거래 합성(710만 건, tabular→그래프 구성) | [aihub-financial-anomaly-synthetic.md](aihub-financial-anomaly-synthetic.md) |
 
 ## 자금세탁·암호화폐 (AML / Crypto)
 | 데이터셋 | 도메인 | 문서 |
