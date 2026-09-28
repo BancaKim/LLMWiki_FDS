@@ -73,6 +73,7 @@ GNN × FDS
 | [FLAG](../papers/llm-gnn/flag.md)/[DGP](../papers/llm-gnn/dgp.md)/[MLED](../papers/llm-gnn/mled.md) | LLM×GNN | 지도/프롬프트 | 다관계 | LLM 융합 |
 | [DIAM](../papers/aml-crypto/diam.md) | AML·암호화폐 | 지도 | 멀티그래프 | Edge2Seq + 불일치 |
 | [TeMP-TraG](../papers/aml-crypto/temp-trag.md) | AML·암호화폐 | 지도 | 시간 멀티그래프 | 시간 가중 메시지 |
+| [GFP](../papers/aml-crypto/graph-feature-preprocessor.md) | AML | 지도 | 동적 거래 그래프(스트림) | 부분그래프 패턴 특징 + GBDT (비-GNN 기준선) |
 | [HUGE](../papers/heterophily-spectral/huge.md) | 이질성 | 비지도 | 다관계 | 이질성 지표(HALO) |
 | [PMP](../papers/heterophily-spectral/pmp.md) | 이질성 | 지도 | 다관계 | 분리 메시지 패싱 |
 | [SEC-GFD](../papers/heterophily-spectral/sec-gfd.md) | 이질성 | 준지도 | 다관계 | 스펙트럼 필터링 |

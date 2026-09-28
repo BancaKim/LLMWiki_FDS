@@ -12,7 +12,7 @@ timestamp: 2026-06-18T00:00:00Z
 > 본 번들은 [Open Knowledge Format (OKF) v0.1](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing) 사양을 따릅니다.
 
 이 위키는 arXiv / alphaXiv 및 주요 학회(NeurIPS, ICLR, KDD, AAAI, IJCAI, CIKM, ICAIF 등)에 공개된
-**GNN 기반 Fraud Detection System** 연구 49편을 OKF **concept** 문서로 정리합니다.
+**GNN 기반 Fraud Detection System** 연구 50편을 OKF **concept** 문서로 정리합니다.
 
 ## 이 번들의 구조 (OKF)
 
@@ -34,7 +34,7 @@ timestamp: 2026-06-18T00:00:00Z
 |------|------|----------|
 | 📚 배경 개념 | GNN×FDS 개요·분류·용어·동향 | [concepts/index.md](concepts/index.md) |
 | 🧪 데이터셋 | 표준 벤치마크 데이터셋 | [datasets/index.md](datasets/index.md) |
-| 📄 논문 | 49편 논문 (6개 주제) | [papers/index.md](papers/index.md) |
+| 📄 논문 | 50편 논문 (6개 주제) | [papers/index.md](papers/index.md) |
 | 📦 외부 리소스 | AI4Risk antifraud(코드)·awesome-fraud-detection(목록) | [resources/index.md](resources/index.md) |
 | 🧰 노트앱으로 보기 | Obsidian으로 iPad·iPhone·Mac 동기화 | [obsidian-setup.md](obsidian-setup.md) |
 | 📊 대시보드 | Dataview 동적 목록(⭐/연도/태그별) | [dashboard.md](dashboard.md) |
@@ -50,10 +50,10 @@ timestamp: 2026-06-18T00:00:00Z
 | 📊 서베이·리뷰 | 3 | 0 | [papers/surveys/index.md](papers/surveys/index.md) |
 | 💳 신용카드·거래·금융 사기 | 17 | 5 | [papers/credit-card-fraud/index.md](papers/credit-card-fraud/index.md) |
 | 🤖 LLM × GNN | 10 | 4 | [papers/llm-gnn/index.md](papers/llm-gnn/index.md) |
-| 🏦 AML·암호화폐 | 4 | 1 | [papers/aml-crypto/index.md](papers/aml-crypto/index.md) |
+| 🏦 AML·암호화폐 | 5 | 1 | [papers/aml-crypto/index.md](papers/aml-crypto/index.md) |
 | 🌐 이질성·스펙트럼·핵심 GFD | 11 | 9 | [papers/heterophily-spectral/index.md](papers/heterophily-spectral/index.md) |
 | 🛡️ 강건성·설명가능성 | 4 | 2 | [papers/robustness-explainability/index.md](papers/robustness-explainability/index.md) |
-| **합계** | **49** | **21** | — |
+| **합계** | **50** | **21** | — |
 
 ### ⭐ 필독 논문 (탑티어 학회) — 21편
 
@@ -95,4 +95,4 @@ timestamp: 2026-06-18T00:00:00Z
 > 교차 검증했으나 일부 세부 수치·저자·발표처는 원문 확인이 필요할 수 있어 *(미확인)* 으로 표기했습니다.
 > 인용 전 각 concept 문서의 `resource` 링크(원문)를 확인하세요.
 
-*최종 갱신: 2026-06-19 · 변경 이력: [log.md](log.md)*
+*최종 갱신: 2026-09-28 · 변경 이력: [log.md](log.md)*

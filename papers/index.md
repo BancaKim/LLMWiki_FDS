@@ -1,16 +1,16 @@
 ---
 type: Index
 title: 논문 모음 (Papers)
-description: 2018–2026 GNN × FDS 논문 49편을 6개 주제로 분류한 concept 모음(핵심 기반 논문 포함). ⭐ = 탑티어 학회 필독 논문.
+description: 2018–2026 GNN × FDS 논문 50편을 6개 주제로 분류한 concept 모음(핵심 기반 논문 포함). ⭐ = 탑티어 학회 필독 논문.
 tags: [papers, index, gnn, fds, 2024, 2025, 2026, must-read]
-timestamp: 2026-06-19T00:00:00Z
+timestamp: 2026-09-28T00:00:00Z
 ---
 
 # 논문 모음 (Papers)
 
 [← 번들 루트](../index.md) · 배경은 [개념 목록](../concepts/index.md)
 
-GNN과 FDS를 연계한 논문 49편입니다(주력은 **2024–2026**, 일부 핵심 **기반 논문** 포함). 각 논문은 `문제 → 방법 → 기여 → 결과 → 링크`
+GNN과 FDS를 연계한 논문 50편입니다(주력은 **2024–2026**, 일부 핵심 **기반 논문** 포함). 각 논문은 `문제 → 방법 → 기여 → 결과 → 링크`
 양식의 concept 문서입니다.
 
 > **범례**: ⭐ = **탑티어 학회 게재 필독(MUST-READ) 논문** (ICLR · KDD · AAAI · IJCAI · CIKM · ACM MM 등).
@@ -43,7 +43,8 @@ GNN과 FDS를 연계한 논문 49편입니다(주력은 **2024–2026**, 일부 
 | ⭐ | CAMERA: Semantic Camouflage (TAG) | **IJCAI 2026** | 이질성·GFD | [link](heterophily-spectral/camera.md) |
 
 > 🏅 **참고(준-탑티어/우수 저널)**: [FraudGT](credit-card-fraud/fraudgt.md)(ICAIF 2024),
-> [STA-GT](credit-card-fraud/sta-gt.md)(IEEE TII).
+> [STA-GT](credit-card-fraud/sta-gt.md)(IEEE TII),
+> [Graph Feature Preprocessor](aml-crypto/graph-feature-preprocessor.md)(ICAIF 2024).
 
 ## 주제별 디렉터리
 | 주제 | 논문 수 | ⭐ 필독 | 바로가기 |
@@ -51,10 +52,10 @@ GNN과 FDS를 연계한 논문 49편입니다(주력은 **2024–2026**, 일부 
 | 📊 서베이·리뷰 | 3 | 0 | [surveys/index.md](surveys/index.md) |
 | 💳 신용카드·거래·금융 사기 | 17 | 5 | [credit-card-fraud/index.md](credit-card-fraud/index.md) |
 | 🤖 LLM × GNN | 10 | 4 | [llm-gnn/index.md](llm-gnn/index.md) |
-| 🏦 AML·암호화폐 | 4 | 1 | [aml-crypto/index.md](aml-crypto/index.md) |
+| 🏦 AML·암호화폐 | 5 | 1 | [aml-crypto/index.md](aml-crypto/index.md) |
 | 🌐 이질성·스펙트럼·핵심 GFD | 11 | 9 | [heterophily-spectral/index.md](heterophily-spectral/index.md) |
 | 🛡️ 강건성·설명가능성 | 4 | 2 | [robustness-explainability/index.md](robustness-explainability/index.md) |
-| **합계** | **49** | **21** | — |
+| **합계** | **50** | **21** | — |
 
 ## 전체 논문 색인 (연도순)
 
@@ -69,6 +70,7 @@ GNN과 FDS를 연계한 논문 49편입니다(주력은 **2024–2026**, 일부 
 | FraudGT | ICAIF 2024 | 카드·거래 | [link](credit-card-fraud/fraudgt.md) |
 | STA-GT | IEEE TII | 카드·거래 | [link](credit-card-fraud/sta-gt.md) |
 | ⭐ DIAM | **CIKM 2024** | AML·암호화폐 | [link](aml-crypto/diam.md) |
+| Graph Feature Preprocessor (GFP) | ICAIF 2024 | AML·암호화폐 | [link](aml-crypto/graph-feature-preprocessor.md) |
 | ⭐ PMP | **ICLR 2024** | 이질성 | [link](heterophily-spectral/pmp.md) |
 | ⭐ SEC-GFD | **AAAI 2024** | 이질성 | [link](heterophily-spectral/sec-gfd.md) |
 | ⭐ DGA-GNN | **AAAI 2024** | 이질성·GFD | [link](heterophily-spectral/dga-gnn.md) |

@@ -26,6 +26,8 @@ timestamp: 2026-06-18T00:00:00Z
 ### 3. Graph Transformer
 메시지 패싱의 한계를 넘어 **장거리 의존성·엣지 속성**을 어텐션으로 포착. 실시간 처리량까지 고려.
 → [FraudGT](../papers/credit-card-fraud/fraudgt.md), [STA-GT](../papers/credit-card-fraud/sta-gt.md)
+> 대조군: **그래프 특징 + GBDT** 인 [Graph Feature Preprocessor](../papers/aml-crypto/graph-feature-preprocessor.md) 는 CPU 에서
+> GNN 보다 높은 F1·처리량을 보고 — GNN 제안 시 반드시 비교할 **강력한 비-GNN 기준선**.
 
 ### 4. 시간·인과 모델링
 거래의 **시간 순서**와 **인과 구조**를 명시적으로 모델링해 강건성·해석가능성 향상.
