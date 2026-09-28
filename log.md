@@ -9,6 +9,25 @@ timestamp: 2026-06-18T00:00:00Z
 
 OKF 예약 파일입니다. 번들의 변경 이력을 시간 순으로 기록합니다.
 
+## 2026-09-28 — AI-Hub 데이터셋 사용 GNN 논문 조사 + GFP 🏅 추가 (49→50)
+
+- **조사 결과**: AI-Hub "이상 판별을 위한 금융거래 정보 및 사용자 패턴 합성데이터"(71925)로 실험한
+  **GNN 논문(학회·저널·arXiv)은 찾지 못함**. 2025년 구축 신규 데이터로 연구 활용 초기 단계로 판단.
+  - 검색: 정식 명칭·번호·"전자금융공동망/카드거래 합성데이터" × GNN/그래프 키워드로 웹·arXiv·KCI·DBpia·GitHub.
+    국내 학회 논문집 원문은 직접 조회 불가 → **누락 가능성 있음**(발견 시 추가).
+  - 확인된 활용: ① **AI-Hub 공식 베이스라인** = IBM Graph Feature Preprocessor 그래프 특징 → SMOTE → LightGBM
+    (Minority F1 평가, 비-GNN), ② GitHub [sugowslt/transaction-anomaly-detection](https://github.com/sugowslt/transaction-anomaly-detection)(논문 아님).
+- **신규 논문(🏅, ⭐ 아님)**: [Graph Feature Preprocessor](papers/aml-crypto/graph-feature-preprocessor.md) —
+  Blanuša et al., **ICAIF 2024**(응용 AI 학회 → 🏅). 부분그래프 패턴(fan-in/out·scatter-gather·순환) 실시간 마이닝
+  + GBDT 가 GIN·PNA 등 GNN 보다 높은 소수 클래스 F1·처리량. 공식 베이스라인의 핵심 부품이라 추가.
+  - (미확인) 피싱 데이터셋 세부.
+- **데이터셋 문서 보강**: [aihub-financial-anomaly-synthetic.md](datasets/aihub-financial-anomaly-synthetic.md) —
+  구축 2025년, 분기 파일(전자금융공동망 14개 21Q3–24Q4 / 카드 16개 21Q1–24Q4), 공식 베이스라인 파이프라인,
+  "쓰는 논문" 조사 결과 표. GFP 가 송신→수신 엣지를 요구하므로 거래 주체 식별자 포함을 **추정**(미확인).
+  공식 베이스라인 수치 성능은 (미확인).
+- 색인 갱신: AML·암호화폐 4→5, 전체 **50편 / ⭐21(불변)**; [IBM AML](datasets/ibm-aml.md)·
+  [분류 체계](concepts/taxonomy.md)·[동향](concepts/trends-and-challenges.md)에 GFP 링크.
+
 ## 2026-09-28 — 데이터셋 추가: AI-Hub 금융거래 이상판별 합성데이터 🇰🇷 (9→10)
 
 - 사용자 요청으로 **국내 데이터셋** concept 신설:

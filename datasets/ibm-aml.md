@@ -23,6 +23,8 @@ IBM이 공개한 **현실적 합성(synthetic)** 금융거래 데이터셋. 실�
 ## 이 데이터셋을 쓰는 논문
 - [FraudGT](../papers/credit-card-fraud/fraudgt.md) — 대규모 금융 그래프에서 throughput/latency
   포함 평가.
+- [Graph Feature Preprocessor](../papers/aml-crypto/graph-feature-preprocessor.md) (ICAIF 2024) — 부분그래프 패턴
+  특징 + GBDT 가 GIN·PNA 등 GNN 기준선보다 높은 F1(HI/LI 버전).
 - AML 합성 데이터 연구 전반.
 
 > 관련: [AML·암호화폐 논문](../papers/aml-crypto/index.md) · [Elliptic 데이터셋](elliptic.md)
